@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 412c354313e571969c3ab7aa87210ff432ae0e91
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 07/24/2020
+ms.author: edupont
+ms.openlocfilehash: 7e08a4487c9ae6782555530adc0c0cf4cfc5458e
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882182"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786896"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sortieren, Durchsuchen und Filtern
+
 Es gibt mehrere Möglichkeiten, wie Sie das tun können und die dabei helfen, Datensätze in einer Liste oder einem Bericht oder XMLport zu scannen, zu suchen und einzugrenzen. Diese umfassen Sortierung, Suche und Filterung. Sie können einige oder alle davon gleichzeitig anwenden, um die Daten schnell zu finden oder zu analysieren.
 
-Für Berichte und XML-Ports können Sie Filter wie für Listen festlegen, um zu begrenzen, welche Daten in den Bericht oder XMLport aufgenommen werden sollen, aber Sie können nicht sortieren und suchen.
+Für Berichte und XML-Ports können Sie, wie bei Listen, Filter setzen, um abzugrenzen, welche Daten in den Bericht aufgenommen werden sollen oder XMLport, aber Sie können nicht sortieren und suchen.
 
 > [!TIP]
 > Wenn Sie Ihre Daten als Kacheln anzeigen, können Sie grundlegender Filterung verwenden und entsprechend suchen. Um den gesamten Satz der leistungsstarken Funktionen zum Sortieren, Suchen und Filtern zu verwenden, wählen Sie das Symbol ![Als Liste anzeigen](media/ui_show_as_list_icon.png "Als Listenpfeil links anzeigen"), um die Datensätze als Liste anzuzeigen.
@@ -30,20 +31,23 @@ When you want to search for data, such as customer names, addresses, or product 
 -->
 
 ## <a name="sorting"></a>Sortieren
+
 Dank der Sortierfunktion können Sie sich schnell und einfach einen Überblick über Ihre Daten verschaffen. Wenn Sie beispielsweise über zahlreiche Debitorenkontakte verfügen, können Sie auswählen, um nach folgenden Kriterien zu sortieren: **Debitorennummer**, **Debitorenbuchungsgruppe**, **Währungscode**, **Länder-/Regionscode** oder **Verkaufssteuer-Registrierung**, um die gewünschte Übersicht zu erhalten.
 
 Um eine Liste zu sortieren, können Sie entweder eine Spaltenüberschrift auswählen, um zwischen aufsteigender und absteigender Reihenfolge umzuschalten, oder den kleinen Pfeil-nach-Unten auswählen und **Aufsteigend** oder die Aktion **Absteigend** wählen.  
 
 > [!NOTE]  
->   Sortierung wird nicht auf Bilder, BLOB-Felder und FlowFilter unterstützt, die keiner Tabelle angehören.  
+> Sortierung wird nicht auf Bilder, BLOB-Felder und FlowFilter unterstützt, die keiner Tabelle angehören.  
 
 ## <a name="searching"></a>Suchen
+
 <!--## Searching by using the Quick Filter -->
 Am Anfang jeder Liste befindet sich eine Aktion ![Suchliste](media/ui-search/search-list.png "Symbol für die Suchliste") **Suchen**, die eine schnelle und einfache Möglichkeit bietet, die Datensätze in einer Liste zu verringern und nur die Datensätze mit den Daten anzuzeigen, die Sie anzeigen möchten.
 
 Zur Suche wählen Sie einfach die Aktion **Suchen** aus und geben dann im Feld den Text ein, nach dem Sie suchen. Sie können Buchstaben, Ziffern und andere Symbole eingeben.
 
 ### <a name="fine-tuning-the-search"></a>Feinabstimmung der Suche
+
 Im Allgemeinen versucht die Suche, Text in allen Feldern abzugleichen. Dabei werden zwischen groß und klein geschriebene Zeichen nicht unterschieden (d. h., die Groß-/Kleinschreibung wird nicht beachtet). Text an jeder Stelle im Feld (am Anfang, am Ende oder in der Mitte) wird durchsucht.
 
 Sie können jedoch eine genauere Suche vornehmen, indem Sie die folgenden Sonderzeichen verwenden.
@@ -69,7 +73,11 @@ Die folgende Tabelle enthält einige Beispiele, um zu erläutern, wie Sie die Su
 > [!TIP]
 > Sie können **F3** drücken, um das Suchfeld zu aktivieren oder zu deaktivieren. Weitere Informationen finden Sie unter [Einrichten von Tastenkombinationen](keyboard-shortcuts.md#KeyboardFilter).
 
-## <a name="Filtering"> </a>Filterung
+> [!NOTE]  
+> Die Suche stimmt nicht mit Werten in Bildern, BLOB-Feldern, FlowFiltern, FlowFields und anderen Feldern überein, die nicht Teil einer Tabelle sind.
+
+## <a name="filtering"></a><a name="filtering"></a>Filterung
+
 Filterung bietet eine erweiterte und vielseitigere Art zum Steuern der in einer Liste angezeigten Datensätze oder diese in einem Bericht oder XMLport anzuzeigen. Es gibt zwei wichtige Unterschiede zwischen Suchen und Filtern, wie in der folgenden Tabelle beschrieben wird.
 
 || **Suchen** | **Filterung** |
@@ -82,6 +90,7 @@ Filterung ermöglicht es Ihnen, Datensätze für bestimmte Konten oder Debitoren
 Bei Listen werden die Filter in einem Filterbereich angezeigt, der beim Aktivieren links von der Liste angezeigt wird. Für Berichte, Stapeljobs und XML-Ports sind die Filter direkt auf der Anforderungsseite sichtbar.
 
 ### <a name="filtering-with-option-fields"></a>Filtern mit Optionsfeldern
+
 Für "normale" Felder, die Daten, Einrichtungsdatum oder Geschäftsdaten enthalten, können Sie Filter festlegen, indem Sie Daten auswählen und Filterwerte eingeben. Mithilfe von Symbolen können Sie erweiterte Filterkriterien definieren. Informationen erhalten Sie unter [Eingeben von Filterkriterien](ui-enter-criteria-filters.md#entering-filter-criteria)
 
 Für Felder vom Typ **Möglichkeit** können Sie einen Filter jedoch nur festlegen, indem Sie eine oder mehrere Optionen aus einer Dropdown-Liste der verfügbaren Optionen auswählen. Ein Beispiel für ein Optionsfeld ist das **Status** Feld auf der **Kundenaufträge** Seite.
@@ -90,6 +99,7 @@ Für Felder vom Typ **Möglichkeit** können Sie einen Filter jedoch nur festleg
 > Wenn Sie mehrere Optionen als Filterwert auswählen, wird die Beziehung zwischen den Optionen als *ODER* definiert. Zum Beispiel, wenn Sie das Kontrollkästchen **Öffnen** und **Freigegeben** im **Status** Filterfeld auf der Seite **Kundenaufträge** auswählen, bedeutet dies, dass offene oder freigegebene Kundenaufträge angezeigt werden.
 
 ### <a name="setting-filters-on-lists"></a>Festlegen von Filtern in Listen
+
 In Listen legen Sie Filter mithilfe des Filterbereichs fest. Um den Filterbereich für eine Liste anzuzeigen, klicken Sie auf den Dropdown-Pfeil neben dem Namen der Seite und wählen Sie dann die **Filterbereich anzeigen** Aktion. Alternativ können Sie auch **UMSCHALT+F3** drücken.
 
 Um den Filterbereich für eine Spalte in einer Liste anzuzeigen, klicken Sie auf den Dropdown-Pfeil neben dem Namen der Seite und wählen Sie dann die **Filterbereich anzeigen** Aktion. Alternativ können Sie auch **UMSCHALT+F3** drücken. Das Filterfenster wird mit der ausgewählten Spalte geöffnet, die als Filterfeld im Fenster angezeigt wird im Abschnitt **Liste filtern nach**.
@@ -116,6 +126,7 @@ Der Filterbereich enthält die aktuellen Filter für eine Liste und ermöglicht 
 Sie können einen einfachen Filter direkt in einer Liste im Filterbereich festlegen, dh einen Filter, der nur Datensätze mit demselben Wert wie in der ausgewählten Zelle anzeigt. Um eine Zelle in einer Liste anzuzeigen, klicken Sie auf den Dropdown-Pfeil neben dem Namen der Seite und wählen Sie dann die **Filter für diesen Wert anzeigen** Aktion. Alternativ können Sie auch **ALT+F3** drücken.
 
 ### <a name="setting-filters-in-reports-batch-jobs-and-xmlports"></a>Festlegen von Filtern in Berichten, Stapeljobs und XML-Ports
+
 Für Berichte und XML-Ports sind die Filter direkt auf der Anforderungsseite sichtbar. Auf der Anforderungsseite werden die zuletzt verwendeten Filter entsprechend Ihrer Auswahl im Feld **Verwenden Sie die Standardwerte von** angezeigt. Weitere Informationen finden Sie unter [Gespeicherte Einstellungen verwenden](ui-work-report.md#SavedSettings).
 
 Der Abschnitt wesentlicher **Filter** zeigt die Standardfilterfelder an, mit denen Sie die Datensätze abgrenzen, die in den Bericht oder XMLport aufgenommen werden sollen. Um einen Filter hinzuzufügen, wählen Sie die **+ Filter** Aktion, geben Sie den Namen des Felds ein, nach dem Sie die Liste filtern möchten, oder wählen Sie ein Feld aus der Dropdown-Liste aus.
@@ -123,6 +134,7 @@ Der Abschnitt wesentlicher **Filter** zeigt die Standardfilterfelder an, mit den
 In dem **Gesamtsummen filtern nach** Abschnitt können Sie verschiedene Dimensionen anpassen, die die Berechnungen im Bericht oder XMLport beeinflussen. Um einen Filter hinzuzufügen, wählen Sie die **+ Filter** Aktion, geben Sie den Namen des Felds ein, nach dem Sie die Liste filtern möchten, oder wählen Sie ein Feld aus der Dropdown-Liste aus.
 
 ## <a name="entering-filter-criteria"></a>Eingeben von Filterkriterien
+
 Sowohl im Filterbereich als auch auf einer Anforderungsseite geben Sie Ihre Filterkriterien in das Feld unter dem Filterfeld ein.
 
 Die Art des Filter-Feldes, das Sie filtern, bestimmt, welche Kriterien Sie eingeben können. Beispielsweise können Sie in einem Feld mit festen Werte nur in diesen Werten filtern. Weitere Informationen über spezielle Filtersymbole finden Sie unter [Filterkriterien](#FilterCriteria) und [Filtertoken](#FilterTokens)
@@ -132,11 +144,12 @@ Spalten, die bereits Filter haben, werden durch das Symbol ![Filtersymbol](media
 > [!TIP]
 > Beschleunigen Sie die Suche und das Analysieren Ihrer Daten, indem Sie Kombinationen von Tastenkombinationen verwenden. Wählen Sie zum Beispiel ein Feld aus, verwenden Sie **UMSCHALT+ALT+F3**, um diesen Filter dem Filterbereich hinzuzufügen und verwenden Sie **STRG+EINGABETASTE**, um die Zeilen zurückzugeben, wählen Sie ein anderes Feld aus und verwenden Sie **ALT+F3**, um zu diesem Wert zu filtern. Weitere Informationen finden Sie unter [Einrichten von Tastenkombinationen](keyboard-shortcuts.md#KeyboardFilter).
 
-### <a name="FilterCriteria"> </a>Filterkriterien und Symbole
+### <a name="filter-criteria-and-symbols"></a><a name="FilterCriteria"> </a>Filterkriterien und Symbole
+
 Beim Eingeben von Filterkriterien können alle Ziffern und Buchstaben verwendet werden, die auch normalerweise im Feld zulässig sind. Zudem können Sie Sonderzeichen (oder Operatoren) verwenden, um eine zusätzliche Filterung der Ergebnisse zu erreichen. Die folgende Tabelle enthält die Symbole, die Sie in Filtern verwenden können. Detaillierte Informationen zu Datumsangaben und Uhrzeit finden Sie unter [Arbeiten mit Datumsangaben und Uhrzeit im Kalender](ui-enter-date-ranges.md).
 
 > [!IMPORTANT]  
->  Es kann Instanzen geben, in denen diese Feldwerte Symbole enthalten, die Sie filtern möchten. Um dies zu tun, müssen Sie den Filterausdruck berücksichtigt der das Symbol in Anführungszeichen (") enthält. Wenn Sie beispielsweise Datensätzen filtern möchten, die mit dem Text *S&R* beginnen, ist der Filterausdruck `'S&R*'`.
+> Es kann Instanzen geben, in denen diese Feldwerte Symbole enthalten, die Sie filtern möchten. Um dies zu tun, müssen Sie den Filterausdruck berücksichtigt der das Symbol in Anführungszeichen (") enthält. Wenn Sie beispielsweise Datensätzen filtern möchten, die mit dem Text *S&R* beginnen, ist der Filterausdruck `'S&R*'`.
 
 In den folgenden Abschnitten wird die Verwendung der verschiedenen Operatoren beschrieben.
 
@@ -231,7 +244,7 @@ In den folgenden Abschnitten wird die Verwendung der verschiedenen Operatoren be
 |`..1299|1400..`|Alle Datensätze mit Nummern kleiner als bzw. gleich 1299 oder mit Nummern größer als bzw. gleich 1400, d. h. alle Datensatznummern außer 1300 bis 1399.|  
 |`>50&<100`|Alle Datensätze mit Nummern größer als 50 und kleiner als 100, d. h. mit Nummern zwischen 51 und 99.|  
 
-### <a name="FilterTokens"> </a>Filtertoken
+### <a name="filter-tokens"></a><a name="FilterTokens"> </a>Filtertoken
 Wenn Sie Filterkriterien eingeben, können Sie auch Begriffe mit besonderer Bedeutung eingeben, die Filtertoken genannt werden. Nachdem Sie das Token-Wort eingegeben haben, wird das Wort durch den Wert oder die Werte ersetzt, die es darstellt. Dadurch wird das Filtern einfacher, indem die Notwendigkeit verringert wird, auf andere Seiten zu navigieren, um Werte nachzuschlagen, die Sie Ihrem Filter hinzufügen möchten. In den folgenden Tabellen werden einige der Token beschreiben, die Sie als Filterkriterien eingeben können.
 
 > [!TIP]
@@ -270,6 +283,7 @@ Verwenden Sie `%myvendors` im Feld Kreditoren-**Nr**, um alle Datensätze für K
 |`%myvendors`|Kreditoren in **Meine Kreditoren** in Ihrem Rollencenter. |  
 
 ## <a name="see-also"></a>Siehe auch
+
 [Suchen und Filtern FAQ](ui-search-filter-faq.md)  
 [Speichern und personalisieren Sie Listenansichten](ui-views.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

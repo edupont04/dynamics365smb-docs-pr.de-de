@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 3cf793197ad607071df22aacb2fb98f96ac54597
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 04/01/2020
+ms.author: edupont
+ms.openlocfilehash: dbab0b20fd46235b549e48950d23879229e6dc1c
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880616"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3788221"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Designdetails: Verfügbarkeit im Lager
 Die Anwendung muss eine konstante Kontrolle der Artikelverfügbarkeit im Lager aufrechterhalten, sodass ausgehende Aufträge effizient verlaufen und optimale Lieferungen zur Verfügung stellen können.  

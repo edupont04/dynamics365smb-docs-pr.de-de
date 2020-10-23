@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: f295ab10d30f5a22f924ec3ad76548375f929b7c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 04/01/2020
+ms.author: edupont
+ms.openlocfilehash: 5e6adb728706af9f516dd70836bc883e32ceb282
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315444"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784761"
 ---
 # <a name="the-paypal-payments-standard-extension"></a>Die PayPal Payments Standard-Erweiterung
 Debitoren erfordern regelmäßig höheren Debitorenservice, sowohl in Bezug auf Produktqualität wie auch in Bezug auf Lieferungs- und Zahlungsoptionen. Mit dem Paypal Payments Standard-Service erhöhen Sie Ihren Debitorenservice.

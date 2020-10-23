@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: cfa08ce37ae548997e0c7a16c812f57076e345bf
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 04/01/2020
+ms.author: edupont
+ms.openlocfilehash: 832bb316226f1468cd316db6de1e5a3a3c3a1e43
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883166"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784057"
 ---
 # <a name="view-load-on-work-and-machine-centers"></a>Anzeigen der Auslastung der Arbeit und Arbeitsplätze
 Auf den Seiten **Arbeitsplatzgruppenkarte** und **Arbeitsplatzkarte** können Sie gebuchte Kapazität aufgrund der Informationen zu geplanten und freigegebenen Fertigungsaufträgen anzeigen.    

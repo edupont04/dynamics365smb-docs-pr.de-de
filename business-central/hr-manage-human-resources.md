@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 947482780e860bba566af7f22231babcf51cdd27
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 04/01/2020
+ms.author: edupont
+ms.openlocfilehash: 86f8a20a2d42b7b84f062ddce702930d89bcbd75
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301431"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3777616"
 ---
 # <a name="manage-human-resources"></a>Personalwesen verwalten
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie ausführliche Datensätze über Ihre Mitarbeiter anlegen. Sie haben die Möglichkeit zum Erfassen und Pflegen von Mitarbeiterinformationen wie Arbeitsverträgen, vertraulichen Informationen, Qualifikationen oder Mitarbeiterkontakten.

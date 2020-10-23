@@ -4,18 +4,15 @@ description: Veröffentlichen Sie Objekte als Web Services, um sie sofort für I
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/04/2020
+ms.date: 05/19/2020
 ms.author: edupont
-ms.openlocfilehash: 4e09df754895a8d0d3a1cc1ed84a7c8332e32880
-ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
+ms.openlocfilehash: 230f3a7fc11e19813d77da2ff15388433642c744
+ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030244"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "3697647"
 ---
 # <a name="publish-a-web-service"></a>Webdienst veröffentlichen
 
@@ -23,12 +20,21 @@ Webdienste sind eine einfache Art, Anwendungsfunktionen für eine Vielzahl von e
 
 Sie richten im Internet einen Webdienst ein im [!INCLUDE[d365fin](includes/d365fin_md.md)] Client. Sie müssen dann den Webdienst veröffentlichen, so dass er für Serviceanforderungen über das Netzwerk bereitsteht. Benutzer können Webdienste erkennen, indem Sie auf einen Browser auf den Computer verweisen, der ausführt und eine Liste der verfügbaren Services anfordern. Wenn Sie einen Webdienst veröffentlichen, ist er über das Netzwerk für authentifizierte Benutzer sofort verfügbar. Alle autorisierten Benutzer können auf Metadaten für Webdienste zugreifen, aber nur Benutzer mit ausreichenden -Berechtigungen können auf tatsächliche Daten zugreifen.
 
-## <a name="creating-and-publishing-a-web-service"></a>Erstellen und Veröffentlichen eines Webdienstes  
+## <a name="creating-and-publishing-a-web-service"></a>Erstellen und Veröffentlichen eines Webdienstes
+
 Die folgenden Schritte erläutern, wie ein Webdienst erstellt und veröffentlicht wird.  
+
+<!--
+    You can also create a new web service URL in [!INCLUDE [prodshort](includes/prodshort.md)] instead. Choose one of the following methods:
+
+      - Use the **Create Data Set** action on the **Web Services** page
+      - Use the **Set Up Reporting** Assisted Setup guide
+      - Choose the **Edit in Excel** action in any lists
+    -->
 
 ### <a name="to-create-and-publish-a-web-service"></a>So erstellen und veröffentlichen Sie einen Webdienst  
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Webdienste** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") aus, geben Sie **Webdienste** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie auf der Seite **Webdienste** **Neu** aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
@@ -40,8 +46,8 @@ Die folgenden Schritte erläutern, wie ein Webdienst erstellt und veröffentlich
 
 Wenn Sie den Webdienst veröffentlichen, sehen Sie in den Feldern **OData-URL** und **SOAP-URL** die URLs, die für den Webdienst erzeugt wurden. Sie können den Webdienst sofort testen, indem Sie die Links in den **OData-URL** und **SOAP-URL**-Feldern auswählen. Optional können Sie den Wert des Felds kopieren und ihn für die spätere Verwendung speichern.  
 
-> [!IMPORTANT]
-> Für Codeunits, die als SOAP-Webdienst veröffentlicht werden, müssen die Methoden, die in der Codeunit bereitgestellt werden, im Code als `[External]` markiert werden.
+> [!NOTE]
+> Wenn die als Webdienste bereitgestellten Objekt nicht online über [!INCLUDE[prodshort](includes/prodshort.md)] aufgerufen werden dürfen, müssen Sie die im Code verfügbaren Methoden als `[Scope('OnPrem')]` markieren. Weitere Informationen finden Sie unter [Bereichsattribut ](/dynamics365/business-central/dev-itpro/developer/methods/devenv-scope-attribute).
 
 Nachdem Sie einen Webdienst veröffentlichen, ist er für externe Seiten verfügbar. Sie können die Verfügbarkeit dieses Webdienstes prüfen, indem Sie einen Browser verwenden, oder Sie können den Link in den **OData-URL** und **SOAP-URL** -Feldern auf der Seite **Webdienste** auswählen. Im folgenden Verfahren wird gezeigt, wie Sie die Verfügbarkeit des Webdienstes für die spätere Verwendung prüfen können.  
 
@@ -52,8 +58,8 @@ Nachdem Sie einen Webdienst veröffentlichen, ist er für externe Seiten verfüg
     > [!div class="mx-tdBreakAll"]
     > |Typ|Syntax|Beispiel|
     > |----------------|------|-------|
-    > |SOAP|https://api.businesscentral.dynamics.com/*Version*/*Mandant*/Produktion/WS/*CompanyName*/*Entität*/ |https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/WS/CRONUS%20USA%2C%20Inc./Page/InvoiceDocument|
-    > |OData-V4|https://api.businesscentral.dynamics.com/*Version*/*Mandant*/Produktion/ODataV4/Unternehmen('*CompanyName*')/*Entität*|https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/ODataV4/Company('CRONUS%20USA%2C%20Inc.')/InvoiceDocument<br/>    Das Feld „Unternehmensname“ berücksichtigt Groß-/Kleinschreibung.|
+    > |SOAP|`https://api.businesscentral.dynamics.com/*version*/*tenant*/Production/WS/*CompanyName*/*entity*/` |`https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/WS/CRONUS%20USA%2C%20Inc./Page/InvoiceDocument`|
+    > |OData-V4|`https://api.businesscentral.dynamics.com/*version*/*tenant*/Production/ODataV4/Company('*CompanyName*')/*entity*`|`https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/ODataV4/Company('CRONUS%20USA%2C%20Inc.')/InvoiceDocument`<br/>    Das Feld „Unternehmensname“ berücksichtigt Groß-/Kleinschreibung.|
 
 2. Überprüfen Sie die Informationen, die im Browser angezeigt werden. Vergewissern Sie sich, dass Sie den Namen des Webdienstes sehen, den Sie erstellt haben.  
 
@@ -71,3 +77,4 @@ https://api.businesscentral.dynamics.com/v1.0/OData/Customer?company='CRONUS Int
 
 [Verwaltung](admin-setup-and-administration.md)  
 [Business Central-Web Services für Entwickler](/dynamics365/business-central/dev-itpro/webservices/web-services)  
+[OData-Anforderungslimits](/dynamics365/business-central/dev-itpro/administration/operational-limits-online#ODataServices)  

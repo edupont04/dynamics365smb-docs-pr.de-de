@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: dd0d4b232747303c267ce5ed1bc6f83ea5c332d0
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/09/2020
+ms.author: edupont
+ms.openlocfilehash: ae5cca6edd9d9b664ae249e1a999804862af27ac
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878185"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778612"
 ---
 # <a name="germany-local-functionality"></a>Lokale Funktion (Deutschland)
+
 Die folgenden Themen beschreiben die lokale Funktionalität, die nur in der deutschen Version von [!INCLUDE[d365fin](../../includes/d365fin_md.md)] vorhanden ist.  
 
 ## <a name="feature-availability"></a>Verfügbarkeit von Funktionen
@@ -30,6 +31,7 @@ Die folgenden Themen beschreiben die lokale Funktionalität, die nur in der deut
     * [Korrektur der MwSt Berichte](how-to-correct-vat-reports.md) **Jetzt verfügbar**
     * [Umsatzsteuervoranmeldungen](how-to-set-up-and-export-sales-vat-advance-notifications.md) **Jetzt verfügbar**
     * [MwSt-VIES-Steuer angeben](how-to-declare-vat-vies-tax.md) **Jetzt verfügbar**
+    * [Zusammenfassende Meldung in Deutschland](eu-sales-list-in-germany.md) **Jetzt verfügbar**
 
 * Banking und Zahlungen
     * [Druck von Listenberichten für Kreditorenzahlungen](how-to-print-vendor-payments-list-reports.md) **Jetzt verfügbar**
@@ -58,12 +60,13 @@ Die folgenden Themen beschreiben die lokale Funktionalität, die nur in der deut
 
 * Allgemein
     * [Währungswechselkurse](currency-exchange-rates.md) **Jetzt verfügbar**
-    * [Zusammenfassende Meldung in Deutschland](eu-sales-list-in-germany.md) **Jetzt verfügbar**
     * [Einbeziehen von Steuernummern von Unternehmen in Verkaufs- und Einkaufsberichte](how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md) **Jetzt verfügbar**
     * [Drucken von Finanzbuchhaltungs-Setupinformationen](how-to-print-general-ledger-setup-information.md) **Jetzt verfügbar**
 
 ## <a name="see-also"></a>Siehe auch
+
 [Zertifizierung von Business Central für deutschen Zielmarkt (Beleg ist in Deutsch)](https://go.microsoft.com/fwlink/?linkid=875256)  
 [Arbeiten mit [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Verfügbarkeit nach Ländern/Regionen und unterstützte Sprachen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  

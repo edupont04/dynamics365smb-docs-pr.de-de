@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 697630e03e3bbb59518ea3405524ad6de3765d7a
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/23/2020
+ms.author: edupont
+ms.openlocfilehash: b0948dce78320d677ac7362bdfbe6971da789911
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879992"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787145"
 ---
 # <a name="design-details-transfers-in-planning"></a>Designdetails: Umlagerungen in der Planung
 Umlagerungsaufträge sind ebenfalls eine Versorgungsquelle beim Arbeiten auf der Lagerhaltungsdatenebene. Wenn Sie "Mehrere Lagerorte (Lager)" verwenden, kann die Beschaffungsmethode auf Transfer festgelegt werden, damit der Lagerort aufgefüllt wird, indem Waren an einem anderen Lagerort übertragen werden. Sind mehrere Lager vorhanden, verfügen Unternehmen möglicherweise über eine Kette von Umlagerungen, in denen der Vorrat von GRÜN auf GELB und von GELB auf ROT usw. übergeht. Am Beginn der Kette steht ein Beschaffungssystem von Fertigungsauftrag oder Einkauf.  
@@ -94,7 +94,7 @@ Jetzt beschließt der Planer am Lagerort PINK, gegen den Einkauf zu reservieren.
 
 ![Ändern der Menge in der Umlagerungsplanung 2](media/nav_app_supply_planning_7_transfers10.png "Ändern der Menge in der Umlagerungsplanung 2")  
 
-Dies bedeutet normalerweise, dass das Planungssystem die Einkaufsbestellung und den Übergangsbedarf ignoriert. Solange es Saldo gibt, gibt es kein Problem. Was geschieht aber, wenn der Debitor am Standort ROT teilweise seinen Auftrag bedauert und ihn zu 22 ändert?  
+Dies bedeutet normalerweise, dass das Planungssystem die Einkaufsbestellung und den Übergangsbedarf ignoriert. Solange es Saldo gibt, gibt es kein Problem. Was geschieht aber, wenn der Debitor am Standort ROT teilweise den Auftrag bedauert und ihn in 22 ändert?  
 
 ![Ändern der Menge in der Umlagerungsplanung 3](media/nav_app_supply_planning_7_transfers11.png "Ändern der Menge in der Umlagerungsplanung 3")  
 

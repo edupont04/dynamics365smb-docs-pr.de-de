@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/24/2020
-ms.author: sgroespe
-ms.openlocfilehash: bb7c64727979b7e8f53898c03781a24bcf8f40c4
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.date: 04/01/2020
+ms.author: edupont
+ms.openlocfilehash: e6bdc2c57aaf4dfea8cb5df720217a15b315e4df
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991832"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785047"
 ---
 # <a name="create-workflows"></a>Erstellen eines Workflows
 Sie können Workflows einrichten, die Geschäftsprozessaufgaben von verschiedenen Benutzern verbinden. Systemaufgaben, wie automatische Buchung, können als Schritte in Workflows berücksichtigt werden, vor oder nach Benutzeraufgaben. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen neuer Datensätze sind typische Workflowschritte.  

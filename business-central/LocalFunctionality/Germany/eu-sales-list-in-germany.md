@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 1c2d1219651e66dd170fbce613d2bb87d249ebd1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 10/01/2020
+ms.author: edupont
+ms.openlocfilehash: 10351575e06cb95885b6f6d90b99d1a8a2d2f3f7
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300195"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920094"
 ---
 # <a name="eu-sales-list-in-germany"></a>Zusammenfassende Meldung in Deutschland
 In Deutschland wird die deutsche zusammenfassende Meldung an das „Bundeszentralamt für Steuern” (BZSt) über das BZSt-Onlineportal mithilfe der ELMA5-Schnittstelle übermittelt.  

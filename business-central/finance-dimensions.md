@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 01/13/2020
-ms.author: sgroespe
-ms.openlocfilehash: 6ac8d49d2b3a88d472a61a9a61c2893360036eb7
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.date: 10/01/2020
+ms.author: edupont
+ms.openlocfilehash: b0e5a74db148e0c33eeb87bd006f3c136bc8ee33
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952626"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917176"
 ---
 # <a name="working-with-dimensions"></a>Arbeiten mit Dimensionen
 Um Analyse in Belegen wie Verkaufsaufträgen einfacher durchzuführen, können Sie Dimensionen verwenden. Dimensionen sind Attribute und Werte, die Posten kategorisieren, sodass Sie sie verfolgen und analysieren können. So können Sie beispielsweise Dimensionen einrichten, mit denen angegeben wird, aus welchem Projekt oder aus welcher Abteilung ein Posten stammt.  
@@ -106,17 +106,34 @@ Um das Buchen von Posten mit widersprüchlichen oder irrelevanten Dimensionen zu
 Globale und Shortcut-Dimensionen können überall in [!INCLUDE[d365fin](includes/d365fin_md.md)] als Filter verwendet werden, auch in Berichten, Batchaufträgen und Analyseansichten. Globale und Shortcutdimensionen können immer direkt eingefügt werden, ohne erst die Seite **Dimensionen** zu öffnen. In Buch.-Blattzeilen und Belegzeilen können Sie globale und Shortcutdimensionen in einem Feld der Zeile auswählen. Sie können zwei globale und acht Shortcutdimensionen einrichten. Wählen Sie die Dimensionen, die Sie am häufigsten verwenden.
 
 > [!Important]  
-> Das Ändern einer globalen oder Shortcutdimension erfordert, dass alle Posten, die mit der Dimension gebucht werden, aktualisiert werden. Diese Aufgabe können Sie mit der Funktion **Globale Dimensionen ändern** ausführen, aber dies kann zeitaufwändig sein und sich negativ auf die Leistung auswirken. Daher wählen Sie Ihre globalen und Shortcutdimensionen sorgfältig aus, um sie später nicht ändern zu müssen.
+> Das Ändern einer globalen oder Shortcutdimension erfordert, dass alle Posten, die mit der Dimension gebucht werden, aktualisiert werden. Diese Aufgabe können Sie mit der Funktion **Globale Dimensionen ändern** ausführen, aber dies kann zeitaufwändig sein und sich negativ auf die Leistung auswirken. Außerdem können Tabellen während des Updates gesperrt sein. Daher wählen Sie Ihre globalen und Shortcutdimensionen sorgfältig aus, um sie später nicht ändern zu müssen. <br /><br />
+> Weitere Informationen finden Sie unter [So ändern Sie globale Dimensionen](finance-dimensions.md#to-change-global-dimensions).
 
 > [!Note]
 > Wenn Sie eine globale oder Shortcutdimension hinzufügen oder ändern, werden Sie automatisch abgemeldet und wieder angemeldet, damit der neuen Wert zur Verwendung in der vollständigen Anwendung vorbereitet wird.
 
 1. Wählen Sie die ![Glühbirne, die das Symbol Tell Me öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Finanzbuchhaltungs-Einrichtung** ein und wählen Sie dann den entsprechenden Link.
-2. Füllen Sie die Felder im Inforegister **Dimensionen** aus. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Füllen Sie die Felder im Inforegister **Dimensionen** aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 #### <a name="to-change-global-dimensions"></a>So ändern Sie globale Dimensionen
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Globale Dimensionen ändern** ein und wählen Sie dann den entsprechenden Link.
-2. Zeigen Sie auf Aktionen und Felder auf der Seite, um zu erfahren, wie globale und Shortcutdimensionen geändert werden.
+Wenn Sie eine globale oder Shortcutdimension ändern, werden alle mit der betreffenden Dimension gebuchten Einträge aktualisiert. Da dieser Prozess zeitaufwändig sein und die Leistung beeinträchtigen kann, stehen zwei verschiedene Modi zur Verfügung, um den Prozess an die Größe der Datenbank anzupassen.  
+
+1. Wählen Sie die ![Glühbirne, die das Symbol Tell Me öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Finanzbuchhaltungs-Einrichtung** ein und wählen Sie dann den entsprechenden Link.
+2. Wählen Sie die Aktion **Globale Dimensionen ändern** aus.
+3. Wählen Sie oben auf der Seite eine der folgenden Optionen aus, um zu definieren, in welchem Modus der Stapelverarbeitungsauftrag ausgeführt wird.
+
+    |Option|Beschreibung|
+    |-|-|
+    |**Sequenziell**|(Standard) Die gesamte Dimensionsänderung wird in einer Transaktion durchgeführt, wobei alle Einträge auf die Dimensionen zurückgesetzt werden, die sie vor der Änderung hatten.<br /><br />Diese Option wird empfohlen, wenn das Unternehmen relativ wenige gebuchte Posten enthält, die am schnellsten abgeschlossen werden können. Der Prozess sperrt mehrere Tabellen und blockiert andere Benutzer, bis er abgeschlossen ist. Beachten Sie, dass der Prozess in großen Datenbanken in diesem Modus möglicherweise überhaupt nicht abgeschlossen werden kann. Verwenden Sie in diesem Fall die Option **Parallel**.|
+    |**Parallel**|(Aktivieren Sie das Kontrollkästchen **Parallele Verarbeitung**.) Die Dimensionsänderung erfolgt in mehreren Hintergrundsitzungen, und der Vorgang wird in mehrere Transaktionen aufgeteilt.<br /><br />Diese Option wird für große Datenbanken oder Unternehmen mit vielen gebuchten Posten empfohlen, die am schnellsten abgeschlossen werden können. Beachten Sie, dass bei diesem Modus der Aktualisierungsprozess nicht gestartet wird, wenn mehrere Datenbanksitzungen aktiv sind.|  
+
+4. Geben Sie in den Feldern **Globaler Dimensionscode 1** und/oder **Globaler Dimensionscode 2** die neue(n) Dimension(en) ein. Die aktuellen Dimensionen werden hinter den Feldern grau dargestellt.
+5. Wenn Sie den Modus **Sequenziell** ausgewählt haben, wählen Sie die Aktion **Start** aus.
+6. Wenn Sie den Modus **Parallel** ausgewählt haben, wählen Sie die Aktion **Vorbereiten** aus.
+
+    Die Registerkarte **Protokolleinträge** enthält Informationen zu den Dimensionen, die geändert werden.
+7. Melden Sie sich von [!INCLUDE[d365fin](includes/d365fin_md.md)] ab und dann wieder an.
+8. Wählen Sie die Aktion **Start** aus, um die Parallelverarbeitung der Dimensionsänderungen zu starten.
 
 ### <a name="example-of-dimension-setup"></a>Beispiel einer Dimensionseinrichtung
 Nehmen wir an, dass Ihr Unternehmen Transaktionen auf Grundlage der Organisationsstruktur und der geografische Lagen verfolgen möchte. Sie können zwei Dimensionen auf der Seite **Dimensionen** einrichten.
@@ -209,7 +226,7 @@ Wenn Sie Belege oder Buch.-Blattzeilen buchen, die Dimensionen enthalten, treten
 |Nicht leerer Dimensionswertcode für leere Vorgabedimension, bei der das Feld **Wertbuchung** die Angabe **Gleicher Code** enthält.|-%1 %2 muss leer sein.<br />-%1 %2 muss für %3 %4 leer sein.|-Ändern Sie das Feld **Wertbuchung** auf der Seite **Vorgabedimension**.<br />-Geben Sie einen leeren Dimensionswertcode für die widersprüchliche Dimension in den Dimensionssatz ein.|
 |Unerwarteter Dimensionswert für Vorgabedimension, bei der das Feld **Wertbuchung** die Angabe **Kein Code** enthält.|-%1 %2 darf nicht angegeben werden.<br />-%1 %2 darf für %3 %4 nicht angegeben werden.|-Ändern Sie das Feld **Wertbuchung** auf der Seite **Vorgabedimension**.<br />- Entfernen Sie die widersprüchliche Zeile aus dem Dimensionssatz.|
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesdimensions-dynamics-365-business-centralindex"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Siehe auch
 [Business Intelligence](bi.md)  

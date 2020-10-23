@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: cffa7d23b7c09561914cc00a8a4b9820ed743c29
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 201716238ddd42ac19cd769a8635d726e27e1509
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775355"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528813"
 ---
 # <a name="auditing-changes-in-business-central"></a>Protokollieren von Änderungen in Business Central
 
@@ -40,13 +40,13 @@ Wenn Sie das Änderungsprotokoll eingerichtet und aktiviert haben und jemand Dat
 
 ## <a name="working-with-activity-logs"></a>Arbeiten mit Aktivitätsprotokollen
 
-Von einigen Seiten in [!INCLUDE [prodshort](includes/prodshort.md)] können Sie ein Aktivitätsprotokoll anzeigen, in dem der Status und alle Fehler von Dateien angezeigt werden, aus denen Sie exportieren oder in die Sie importieren [!INCLUDE [prodshort](includes/prodshort.md)].  
+Von einigen Seiten in [!INCLUDE[prodshort](includes/prodshort.md)] können Sie ein Aktivitätsprotokoll anzeigen, in dem der Status und alle Fehler von Dateien angezeigt werden, aus denen Sie exportieren oder in die Sie importieren [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 Die Informationen werden auf der Seite **Aktivitätsprotokoll** angezeigt, entsprechend dem Kontext, aus dem sie geöffnet wurden. Sie können das Fenster beispielsweise von den Seiten **Belegaustauschservice einrichten**, **eingehende Belege**, **Gebuchte Verkaufsrechnung**, und **Gebuchte Verkaufsgutschrift**. Sie können die Liste der Protokolleinträge leeren oder die Liste der Einträge löschen, die älter als 7 Tage sind.  
 
 ## <a name="see-also"></a>Siehe auch
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
-[Sortieren](ui-sorting.md)  
+[Sortieren, Suchen und Filtern](ui-enter-criteria-filters.md)  
 [Suche nach Seiten und Informationen mit Tell Me](ui-search.md)  
 [Berechtigungen für Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)    
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: d7895b0068afaf73a113b6f656c1600ce2cc4a4a
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 07/23/2020
+ms.author: edupont
+ms.openlocfilehash: b0f671fc4c3a8b08d1bf9b21cef79ae35defb636
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880232"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787621"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Designdetails: Artikelverfolgung und Reservierungen
+
 Die gleichzeitige Verwendung von Reservierung und spezifischer Artikelnachverfolgung ist selten, da beide eine Kopplung zwischen Vorrat und Bedarf erstellen. Mit Ausnahme von Situationen, in denen ein Kunde oder ein Produktionsplaner eine bestimmte Charge anfragt, ist es selten sinnvoll, Lagerartikel zu reservieren, die bereits Artikelverfolgungsnummern für bestimmte Anwendungen tragen. Obwohl es möglich ist, Artikel zu reservieren, die eine spezifische Artikelnachverfolgung erfordern, sind spezielle Funktionen erforderlich, um Verfügbarkeitskonflikte zwischen Auftragsbearbeitern zu vermeiden, die dieselben artikelnachverfolgten Artikel anfordern.  
   
 Das Konzept der späten Bindung stellt sicher, dass eine nicht-spezifische Reservierung einer Seriennummer oder einer Chargennummer bis zur Buchung lose verbunden bleibt. Zum Zeitpunkt der Buchung kann das Reservierungssystem nicht-spezifische Reservierungen umändern, um sicherzustellen, dass ein fester Ausgleich anhand der Serien- oder Chargennummer möglich ist, die tatsächlich kommissioniert wurde. Unterdessen wird die Serien- oder Chargennummer für spezifische Reservierungen in anderen Belegen bereitgestellt, die bestimmte Serien- oder Chargennummern erfordern.  
@@ -25,7 +26,7 @@ Das Konzept der späten Bindung stellt sicher, dass eine nicht-spezifische Reser
 Eine nicht-spezifische Reservierung ist eine Reservierung, bei der der Benutzer nicht interessiert ist, welcher bestimmte Artikel kommissioniert wird, und eine spezifische Reservierung ist eine, bei der der Benutzer daran interessiert ist.  
   
 > [!NOTE]  
->  Die Funktionalität der späten Bindung bezieht sich nur auf Artikel, die mit spezifischer Artikelverfolgung eingerichtet wurden, sowie nur auf Reservierungen gegen den Bestand, nicht gegen eingehende Beschaffungsaufträge.  
+> Die Funktionalität der späten Bindung bezieht sich nur auf Artikel, die mit spezifischer Artikelverfolgung eingerichtet wurden, sowie nur auf Reservierungen gegen den Bestand, nicht gegen eingehende Beschaffungsaufträge.  
   
 Die Reservierung von Artikelverfolgungsnummern zerfällt in zwei Kategorien, wie in der folgenden Tabelle dargestellt.  
   
@@ -36,11 +37,9 @@ Die Reservierung von Artikelverfolgungsnummern zerfällt in zwei Kategorien, wie
   
 Der hauptsächliche Unterschied zwischen spezifischer und unspezifischer Reservierung ist durch das Vorhandensein von Serien- oder Chargennummern auf in der Bedarfsseite definiert, wie in der folgenden Tabelle gezeigt.  
   
-||||  
-|-|-|-|  
-||**Vorrat**|**Bedarf**|  
-|**Ausgewählt**|Serien- oder Chargennummer|Serien- oder Chargennummer|  
-|**Unspezifisch**|Serien- oder Chargennummer|Keine Serien- oder Chargennummer.|  
+|<!--blank -->|**Angebot**|**Nachfrage**|  
+|**Spezifisch** | Serien- oder Chargennummer.| Serien- oder Chargennummer.|  
+|**Unspezifisch** | Serien- oder Chargennummer.| Serien- oder Chargennummer.|  
   
 Wenn Sie reservieren, werden Lagerbestandsmengen aus einem ausgehenden Beleg für einen Artikel, der die zugeordneten Artikelverfolgungsnummern hat und für bestimmte Artikelverfolgung eingerichtet ist, führt Sie die Seite **Reservierung** durch verschiedene Workflows entsprechend Ihres Bedarfs für eine Serien- oder Chargennummer.  
   

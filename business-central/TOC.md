@@ -5,7 +5,7 @@
 ## [Mindestanforderungen](product-requirements.md)
 ## [Häufig gestellte Fragen](across-faq.md)
 ## [Ressourcen für Hilfe und Support](product-help-and-support.md)
-## [Vorbereitung für das Geschäft ](ui-get-ready-business.md)
+## [Vorbereitung für das Geschäft](ui-get-ready-business.md)
 ## [Überblick über Geschäfts-Funktionalität](across-business-functionality.md)
 ## [Ihr Zugang zur intelligenten Cloud mit Business Central](about-intelligent-cloud.md)
 ## [Besuchen Sie unsere Videobibliothek](across-videos.md)
@@ -28,7 +28,7 @@
 
 # Arbeiten mit Business Central
 ## [Matrix](ui-work-product.md)
-## [Druckfreundlicher Spickzettel](ui-work-product.md)
+## [Druckfreundlicher Spickzettel](ui-work-product.md#cheatsheet)
 ## [Suche nach Seiten und Informationen mit Tell Me](ui-search.md)
 ## [Suche nach Seiten mit dem Rollen-Explorer](ui-role-explorer.md)
 ## [Häufig gestellte Fragen zu „Wie möchten Sie weiter verfahren“](ui-search-faq.md)
@@ -38,20 +38,23 @@
 ## [Kopieren und einfügen FAQ](ui-copy-paste.md)
 ## [Arbeiten mit Datumsangaben und Uhrzeiten in Kalendern](ui-enter-date-ranges.md)
 ## [Pflichtfelder erkennen](ui-mandatory-fields.md)
-## [Sprache und Gebiet ändern](about-locale-language.md)
+## [Ändern der Sprache und der Region](about-locale-language.md)
 ## [Anzeigen und bearbeiten in Excel](across-work-with-excel.md)
 ## [Verwalten von Anhängen, Links und Notizen zu Karten und Dokumenten](ui-how-add-link-to-record.md)
 ## [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)
+## [Wechseln zu einem anderen Unternehmen oder einer anderen Umgebung](ui-organization-switch.md)
 ## [Verwalten von Benachrichtigungen](ui-smart-notifications.md)
+## [Performance-Tipps für Geschäftsanwender](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
+## [Warnungen und Fehlermeldungen](product-error-messages.md)
 ## Business Central personalisieren
 ### [Ihren Arbeitsbereich personalisieren](ui-personalization-user.md)
 ### [Warum ist die Seite vom Personalisieren gesperrt?](ui-personalization-locked.md)
 ### [Speichern und personalisieren Sie Listenansichten](ui-views.md)
-### [Fügen Sie eine Seitenaktion Ihrem Rollencenter hinzu](ui-bookmarks.md)
+### [Erstellen eines Lesezeichens für eine Seite oder einen Bericht im Rollencenter](ui-bookmarks.md)
 ### [Anzeigen von Listen in verschiedenen Ansichten](across-display-lists-different-views.md)
 ## Drucken von Berichten und Ausführen von Stapelverarbeitungen und XMLports
-### [Arbeiten mit Berichten, Stapelverarbeitungen und XMLports](ui-work-report.md)
-### [Angeben der Druckerauswahl für Berichte](ui-specify-printer-selection-reports.md)
+### [Arbeiten mit Berichten, Batchaufträgen und XMLports](ui-work-report.md)
+### [Drucker einrichten](ui-specify-printer-selection-reports.md)
 ### [Planen der Ausführung eines Berichts](ui-work-report.md#ScheduleReport)
 ### [Gespeicherte Einstellungen für Berichte und Stapelaufträge verwalten](reports-saving-reusing-settings.md)
 ### [Anzeigen von Testberichten vor dem Buchen](ui-how-view-test-reports-posting.md)
@@ -64,10 +67,12 @@
 ### [Benutzerdefinierte Berichtslayouts aktualisieren](ui-update-report-layouts.md)
 ### [Beleglayouts für Debitoren und Kreditoren definieren](ui-define-customer-vendor-document-layouts.md)
 ### [Hinzufügen von Feldern zu einem Word-Berichtlayout](ui-how-add-fields-word-report-layout.md)
+### [Verfügbare Schriftarten](ui-fonts.md)
 ## Tastenkombinationen verwenden
 ### [Eingabehilfe und Tastenkombinationen](ui-accessibility.md)
 ### [Tastenkombinationen](keyboard-shortcuts.md)
 ### [Nur PC-Tastenkombinationskurzübersicht](keyboard-shortcuts-cheatsheet.md)
+## [Problembehebung: Auf Kamera und Standort zugreifen](ui-troubleshooting-camera-location.md)
 
 # Einrichten von Business Central
 ## [Matrix](setup.md)
@@ -76,10 +81,11 @@
 ### [Zahlungsformen definieren](finance-payment-methods.md)
 ### [Buchungsgruppen einrichten](finance-posting-groups.md)
 ### [Bereiten Sie Finanzberichte mit Kontenschemata und Kontengruppen vor](bi-how-work-account-schedule.md)
-### [Arbeiten mit Zahlungstoleranzen und Skontotoleranzen](finance-payment-tolerance-and-payment-discount-tolerance.md)
-### [Ein neues Geschäftsjahres eröffnen](finance-how-open-new-fiscal-year.md)
+### [Arbeiten mit Zahlungstoleranzen und Zahlungsrabatt-Toleranzen](finance-payment-tolerance-and-payment-discount-tolerance.md)
+### [Arbeiten mit Buchhaltungsperioden und Geschäftsjahren](finance-accounting-periods-and-fiscal-years.md)
 ### [Mehrwertsteuer (MwSt.) einrichten](finance-setup-vat.md)
 ### [Einrichten von nicht realisierter Vorsteuer für bargeldbasierte Verrechnung](finance-setup-unrealized-vat.md)
+### [Herkunftscodes und Ursachencodes für Audit Trails einrichten](finance-setup-trail-codes.md)
 ### [Den Ausgleich von Posten in unterschiedlichen Währungen zulassen:](finance-how-enable-application-ledger-entries-different-currencies.md)
 ### [Einrichten einer zusätzlichen Berichtswährung](finance-how-setup-additional-currencies.md)
 ### [Währungswechselkurse aktualisieren](finance-how-update-currencies.md)
@@ -95,7 +101,7 @@
 ### [Matrix](bank-setup-banking.md)
 ### [Bankkonten einrichten](bank-how-setup-bank-accounts.md)
 ### [Den Envestnet Yodlee Bank Feeds Service einrichten](bank-how-setup-bank-statement-service.md)
-### [Benutzung der AMC Banking 365 Fundamentals Erweiterung](ui-extensions-amc-banking.md)
+### [Verwenden der AMC Banking 365 Fundamentals-Erweiterung](ui-extensions-amc-banking.md)
 ### [Ein Prüflayout auswählen](finance-how-define-check-layouts.md)
 
 ## Einrichten von Verkäufen
@@ -124,7 +130,7 @@
 ### [Neue Artikel registrieren](inventory-how-register-new-items.md)
 ### [Kopieren von vorhandenen Artikeln um neue Artikel zu erstellen](inventory-how-copy-items.md)
 ### [Info zu Elementtypen](inventory-about-item-types.md)
-### [Artikeleinheiten einrichten](inventory-how-setup-units-of-measure.md)
+### [Einheiten einrichten](inventory-how-setup-units-of-measure.md)
 ### [Lagerhaltungsdaten einrichten](inventory-how-to-set-up-stockkeeping-units.md)
 ### [Artikel kategorisieren](inventory-how-categorize-items.md)
 ### [Mehrere Artikelbilder importieren](inventory-how-import-item-pictures.md)
@@ -212,7 +218,7 @@
 #### [So kopieren Sie Daten in neue Mandanten.](admin-how-to-copy-data-to-new-companies.md)
 #### [So erstellen Sie Buch.-Blatt-Eröffnungssalden](admin-how-to-create-journal-opening-balances.md)
 ### [Sammeln von Einrichtungswerten für Debitoren](admin-gather-customer-setup-values.md)
-### [Vorgehensweise: Migrieren von Debitorendaten](admin-use-templates-to-prepare-customer-data-for-migration.md)
+### [Migration von Debitorendaten mit Vorlagen vorbereiten](admin-use-templates-to-prepare-customer-data-for-migration.md)
 ### [Migrieren von Debitorendaten](admin-migrate-customer-data.md)
 ### [Vorgehensweise: Erstellen benutzerdefinierter Unternehmenskonfigurationspakete](admin-how-to-create-custom-company-configuration-packages.md)
 ### [Tipps und Tricks: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
@@ -221,13 +227,21 @@
 ### [Synchronisieren mit Kontakten in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
 ### [Nutzung von Business Central ohne Outlook](admin-no-outlook.md)
 ## Verwenden von Power BI mit Business Central
-### [Aktivieren Sie Ihre Geschäftsdaten für Power BI](admin-powerbi.md)
-### [Anzeigen von Listendaten in Power BI-Berichten in Business Central](across-how-use-powerbi-reports-factbox.md)
-### [Verwenden von Business Central als Power BI-Datenquelle](across-how-use-financials-data-source-powerbi.md)
+### [Einführung](admin-powerbi.md)
+### Administrator
+#### [Übersicht über die Integration](admin-powerbi-overview.md)
+#### [Ermöglichen der Power BI-Integration](admin-powerbi-setup.md)
+### Designerin
+#### [Erste Schritte beim Erstellen von Berichten](across-how-use-financials-data-source-powerbi.md)
+#### [Erstellen von Berichten zum Anzeigen von Listendaten](across-how-use-powerbi-reports-factbox.md)
+### Verbraucher
+#### [Arbeiten mit Power BI-Berichten in Business Central](across-working-with-powerbi.md)
+#### [Arbeiten mit Business Central-Daten in Power BI](across-working-with-business-central-in-powerbi.md)
+#### [Verwenden der Business Central-Apps in Power BI](across-powerbi-business-central-apps.md)
 ## Verwenden von Power Automate mit Business Central
 ### [Business Central in einem automatisierten Workflow nutzen](across-how-use-financials-data-source-flow.md)
 ## Verwenden von Power Apps mit Business Central
-### [Verknüpfung mit Business Central daten, um eine Geschäfts-App mithilfe von Power Apps](across-how-use-financials-data-source-powerapps.md) zu erstellen
+### [Verknüpfung mit Business Central daten, um eine Geschäfts-App mithilfe von Power Apps zu erstellen](across-how-use-financials-data-source-powerapps.md)
 ## [Von QuickBooks-App zu Business Central wechseln](across-quickbooks-to-business-edition.md)
 ## [Abrufen von Business Central auf meinem mobilen Gerät](install-mobile-app.md)
 ## [Massenrechnungsstellung für Microsoft Bookings](finance-bookings.md)
@@ -296,10 +310,9 @@
 #### [So richten Sie einen Belegaustauschdienst ein](across-how-to-set-up-a-document-exchange-service.md)
 #### [Einrichten von eingehenden Belegen](across-how-setup-income-documents.md)
 #### [Währungswechselkurse aktualisieren](finance-how-update-currencies.md)
-#### [Einrichten des Senden und Empfangen von elektronischen Belegen](across-how-to-set-up-electronic-document-sending-and-receiving.md)
-#### [SEPA-Überweisung einrichten](finance-how-to-set-up-sepa-credit-transfer.md)
-#### [Einrichten von SEPA-Lastschriften](finance-how-to-set-up-sepa-direct-debit.md)
-#### [Benutzung der AMC Banking 365 Fundamentals Erweiterung](ui-extensions-amc-banking.md)
+#### [Einrichten von Senden und Empfangen von elektronischen Belegen](across-how-to-set-up-electronic-document-sending-and-receiving.md)
+#### [Erfassen von Zahlungen per Lastschriftverfahren SEPA](finance-collect-payments-with-sepa-direct-debit.md)
+#### [Verwenden der AMC Banking 365 Fundamentals-Erweiterung](ui-extensions-amc-banking.md)
 #### [Einrichten des Bankauszugservice](bank-how-setup-bank-statement-service.md)
 #### [Bankkonten einrichten](bank-how-setup-bank-accounts.md)
 #### [Verwenden von XML-Schemas, um Datenaustauschdefinitionen vorzubereiten](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
@@ -310,8 +323,8 @@
 #### [Verwenden von OCR, um PDF und Bilddateien in elektronische Belege umzuwandeln](across-how-use-ocr-pdf-images-files.md)
 #### [Vorgehensweise: Elektronische Belege empfangen und konvertieren](purchasing-how-to-receive-and-convert-electronic-documents.md)
 #### [Den Envestnet Yodlee Bank Feeds Service einrichten](bank-how-setup-bank-statement-service.md)
-#### [Zahlungen in eine Bankdatei exportieren](payables-how-export-payments-bank-file.md)
-#### [Zahlungen mit dem Dienst zur Konvertierung von Bankdaten oder der SEPA-Kreditübertragung vornehmen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+#### [Zahlungen in eine Bankdatei exportieren](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
+#### [Zahlungen mit der AMC Banking 365 Fundamentals-Erweiterung oder per SEPA-Überweisung vornehmen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 #### [Einziehen von Zahlungen per Lastschriftverfahren SEPA](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Währungswechselkurse aktualisieren](finance-how-update-currencies.md)
 #### [Feld-Zuordnung beim Importieren von SEPA CAMT-Dateien](across-field-mapping-when-importing-sepa-camt-files.md)
@@ -320,8 +333,10 @@
 # Verwaltung
 ## [Matrix](admin-setup-and-administration.md)
 ## [Benutzer nach Lizenzen anlegen](ui-how-users-permissions.md)
-## [Berechtigungen für Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)
+## [Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)
 ## [Profile verwalten](admin-users-profiles-roles.md)
+## [Benutzereinstellungen und Präferenzen verwalten](admin-manage-user-settings-preferences.md)
+## [Drucker einrichten](ui-specify-printer-selection-reports.md)
 ## [Datensensitivität klassieren](admin-classifying-data-sensitivity.md)
 ## [Antworten auf Anforderungen zu Personendaten](admin-responding-to-requests-about-personal-data.md)
 ## [Neue Unternehmen anlegen](about-new-company.md)
@@ -333,7 +348,10 @@
 ## [Datenverschlüsselung verwalten](admin-manage-data-encryption.md)
 ## [Verlängern Ihrer Testversion](admin-extend-trial.md)
 ## [Überprüfen von Seiten](across-inspect-page.md)
+## [Anzeigen von Datenbank-Sperren](admin-view-database-locks.md)
+## [Tabelleninformationen anzeigen](admin-view-table-information.md)
 ## [Erstellen Sie eine Sandkastenumgebung.](across-how-create-sandbox-environment.md)
+## [Neue Funktionen im Voraus aktivieren](admin-feature-management.md)
 ## Business Central anpassen
 ### [Matrix](ui-customizing-overview.md)
 ### [Seiten für Profile anpassen](ui-personalization-manage.md)
@@ -341,7 +359,6 @@
 ### [Einrichten eines farbigen Indikators auf Stapeln des Rollencenters](admin-how-set-up-colored-indicator-on-cues.md)
 ### Erweiterungen zur Nutzung anpassen
 #### [Matrix](ui-extensions.md)
-#### [Erweiterungen zur Nutzung anpassen](ui-extensions.md)
 #### [Buchhaltungsportal für Business Central](ui-extensions-accountant-portal.md)
 #### [Ceridian-Gehaltsliste](ui-extensions-ceridian-payroll.md)
 #### [Dynamics GP Datenmigration](ui-extensions-dynamicsgp-data-migration.md)
@@ -357,19 +374,22 @@
 #### [QuickBooks Online-Datenmigration](ui-extensions-quickbooks-online-data-migration.md)
 #### [Quickbooks Lohndatei-Import](ui-extensions-quickbooks-payroll.md)
 #### [Verkaufs- und Bestandsprognose](ui-extensions-sales-forecast.md)
-#### [AMC Banking 365 Fundamentals Erweiterung](ui-extensions-amc-banking.md)
+#### [AMC Banking 365 Fundamentals-Erweiterung](ui-extensions-amc-banking.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
-#### [DK - C5 Datenmigration](ui-extensions-c5-data-migration.md)
-#### [DK - Zahlungen und Abstimmungen](ui-extensions-payments-reconciliation-formats-dk.md)
+#### [DK – C5 Datenmigration](ui-extensions-c5-data-migration.md)
+#### [DK – Zahlungen und Abstimmungen](ui-extensions-payments-reconciliation-formats-dk.md)
 #### [DK - Steuerdateiformate](ui-extensions-tax-file-formats-dk.md)
 #### [UK - GetAddress.io Postleitzahlen Großbritannien](ui-extensions-getaddressio.md)
 #### [USA/CA/GB/AU/NZ/ZA – Überweisungsbestätigung senden](ui-extensions-send-remittance-advice.md)
 #### [Business Central-Erweiterungen von anderen Anbietern](ui-extensions-other.md)
 ## Integration mit Dynamics 365 Sales
 ### [Matrix](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Einrichten des Benutzerkontos für die Integration in Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)
-### [Dynamics 365 Sales Verbindung einrichten](admin-how-to-set-up-a-dynamics-crm-connection.md)
-### [Synchronisieren von Business Central und Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)
+## Integrieren in Common Data Service
+### [Matrix](admin-common-data-service.md)
+### [Dateneigentumsmodelle](admin-cds-company-concept.md)
+### [Einrichten des Benutzerkontos für die Integration in Common Data Service](admin-setting-up-integration-with-dynamics-sales.md)
+### [Verbindung zu Common Data Service](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Synchronisieren von Business Central und Common Data Service](admin-synchronizing-business-central-and-sales.md)
 ### [Zu synchronisierende Tabellen und Felder zuordnen](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Synchronisieren Sie Tabellenzuordnungen manuell](admin-manual-synchronization-of-table-mappings.md)
 ### [Planen einer Synchronisierung](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
@@ -403,7 +423,7 @@
 #### [Erfassen von Zahlungen und Erstattungen](payables-how-post-payments-refunds.md)
 #### [Zahlungsvorschlag](payables-how-suggest-vendor-payments.md)
 #### [Zahlung per Scheck machen](payables-how-work-checks.md)
-#### [Zahlungen mit dem Dienst zur Konvertierung von Bankdaten oder der SEPA-Kreditübertragung vornehmen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+#### [Zahlungen mit der AMC Banking 365 Fundamentals-Erweiterung oder per SEPA-Überweisung vornehmen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 #### [Einkaufsrechnungen sofort ausgleichen](finance-how-to-settle-purchase-invoices-promptly.md)
 #### [Um eine Positive Pay-Datei zu exportieren](finance-how-positive-pay.md)
 ### Zahlungen automatisch vornehmen und Bankkonten abstimmen
@@ -412,8 +432,6 @@
 #### [Zahlungen manuell zuordnen oder überprüfen nach der automatischen Zuordnung.](receivables-how-review-apply-payments-auto-application.md)
 #### [Zahlungen abstimmen, die nicht automatisch ausgeglichen werden können](receivables-how-reconcile-payments-cannot-apply-auto.md)
 #### [Zuordnen von Text auf sich wiederholenden Zahlungen an Konten für automatische Abstimmung](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
-### [Debitoren-Zahlungen aus einer Liste mit unbezahlten Verkaufsbelegen abstimmen](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
-### [Abstimmen von Debitoren-Zahlungen mit dem Zahlungseingangs Buch.-Blatt oder von Debitorenposten](receivables-how-apply-sales-transactions-manually.md)
 ### [Abstimmen von Kreditorenzahlungen mit dem Zahlungsjournal oder aus Kreditorenposten](payables-how-apply-purchase-transactions-manually.md)
 ### [Einziehen von Restbeträgen](receivables-collect-outstanding-balances.md)
 ### [Erfassen von Zahlungen per Lastschriftverfahren SEPA](finance-collect-payments-with-sepa-direct-debit.md)
@@ -497,6 +515,7 @@
 ## [Arbeiten mit MwSt im Verkauf und Einkauf](finance-work-with-vat.md)
 ## [Melden von MwSt. an die Steuerbehörden](finance-how-report-vat.md)
 ## [Konvertieren von Serviceverträgen, die MwSt.-Beträge enthalten](service-how-to-convert-service-contracts.md)
+## [Verwalten von Änderungen des Mehrwertsteuersatzes](finance-how-use-vat-rate-change-tool.md)
 ## [Analysieren von Cashflow in Ihren Mandanten](finance-analyze-cash-flow.md)
 ## [Exemplarische Vorgehensweise: Erstellen von Cashflowplanungen mithilfe von Kontenschemata](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ## [Finanzauswertungen in Excel analysieren](finance-analyze-excel.md)
@@ -511,6 +530,7 @@
 ## [Analysieren von Daten nach Dimensionen](bi-how-analyze-data-dimension.md)
 ## [Analyseberichte erstellen](bi-how-create-analysis-views-reports.md)
 ## [Berichte mit XBRL erstellen](bi-create-reports-with-xbrl.md)
+## [Absicht auf Datenbankzugriff verwalten](admin-data-access-intent.md)
 
 # Verkauf
 ## [Matrix](sales-manage-sales.md)
@@ -518,6 +538,7 @@
 ## [Verkaufsangebote machen](sales-how-make-offers.md)
 ## [Fakturieren eines Verkaufs](sales-how-invoice-sales.md)
 ## [Produkte verkaufen](sales-how-sell-products.md)
+## [Kommissionierliste drucken](sales-how-print-picking-list.md)
 ## [Verkäufe buchen](ui-post-sales.md)
 ## [Erstellen Sie wiederkehrende Verkaufs- und Einkaufszeilen](sales-how-work-standard-lines.md)
 ## [Direktlieferungen machen](sales-how-drop-shipment.md)
@@ -531,6 +552,7 @@
 ## [Terminberechnung für Verkäufe](sales-date-calculation-for-sales.md)
 ## [So erstellen Sie eine Absatzplanung](production-how-to-create-a-forecast.md)
 ## [Doppelt Datensätze zusammenführen](sales-how-merge-duplicate-records.md)
+## [Arbeiten mit wiederkehrenden Umsätzen](finance-recurring-invoicing.md)
 
 # Einkauf
 ## [Matrix](purchasing-manage-purchasing.md)
@@ -612,7 +634,6 @@
 ### [Verkaufschancen erstellen](marketing-how-create-opportunities.md)
 ### [Verfolgen Sie den Austausch von E-Mail-Nachrichten](marketing-set-up-email-logging.md)
 ### [Verarbeiten von Verkaufschancen](marketing-processing-sales-opportunities.md)
-### [E-Mail-Protokollierung einr.](marketing-set-up-email-logging.md)
 ## [Verwenden Sie Profilbefragungen, um Geschäftskontakten zu klassieren](marketing-create-contact-profile-questionnaire.md)
 ## [Verwenden von Dynamics 365 for Sales aus Business Central heraus](marketing-integrate-dynamicscrm.md)
 ### [Datensätze manuell koppeln und synchronisieren](admin-how-to-couple-and-synchronize-records-manually.md)
@@ -635,7 +656,7 @@
 ## [Führen Sie eine vollständige Planung, Prod.-Programmplanung oder Nettobedarf aus](production-how-to-run-mps-and-mrp.md)
 ## [Neugestaltungs- oder direkt Aktualisierung von Fertigungsaufträgen](production-how-to-replan-refresh-production-orders.md)
 ## [Nachverfolgen von Beziehungen zwischen Bedarf und Vorrat.](production-how-track-demand-supply.md)
-## [Ändern von Planungsvorschlägen in einer grafischen Ansicht](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)
+<!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 # Montageverwaltung
 ## [Matrix](assembly-assemble-items.md)
@@ -754,6 +775,7 @@
 ## Designdetails: Lagerkostenberechnung
 ### [Matrix](design-details-inventory-costing.md)
 ### [Designdetails: Kostenberechnungsmethoden](design-details-costing-methods.md)  
+### [Designdetails: Lagerabgangsmethode für Artikel ändern](design-details-changing-costing-methods.md)
 ### [Designdetails: Artikelausgleich](design-details-item-application.md)  
 ### [Designdetails: Bekannte Artikelanwendungsprobleme](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ### [Designdetails: Kostenregulierung](design-details-cost-adjustment.md)  
@@ -799,7 +821,7 @@
 ### [Designdetails: Codeunit 12 Änderungen: Änderungen in Fibu Buch.-Blatt-Beitrags-Verfahren](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
 ## Designdetails: Dimensionssatzposten
 ### [Matrix](design-details-dimension-set-entries.md)
-### [Designdetails: Dimensionssatzposten-Übersicht](design-details-dimension-set-entries-overview.md).  
+### [Designdetails: Dimensionssatzposten-Übersicht](design-details-dimension-set-entries-overview.md)  
 ### [Designdetails: Suche nach Dimensionskombinationen](design-details-searching-for-dimension-combinations.md)  
 ### [Designdetails: Tabellenstruktur](design-details-table-structure.md)  
 
@@ -809,7 +831,7 @@
 ## Australien
 ### [Matrix](LocalFunctionality/Australia/australia-local-functionality.md)
 ### Steuer
-#### [Steuer](LocalFunctionality/Australia/tax.md)
+#### [Matrix](LocalFunctionality/Australia/tax.md)
 #### [Quellensteuer](LocalFunctionality/Australia/withholding-tax.md)
 #### [Quellensteuer einrichten](LocalFunctionality/Australia/how-to-set-up-withholding-tax.md)
 #### [Quellensteuer-Erlöstypen einrichten](LocalFunctionality/Australia/how-to-set-up-revenue-types-for-withholding-tax.md)
@@ -867,8 +889,8 @@
 #### [Drucken von periodischen MwSt.-Erklärungen](LocalFunctionality/Belgium/how-to-print-periodic-vat-reports.md)
 #### [Einrichten belgischer Zollpositionen](LocalFunctionality/Belgium/how-to-set-up-belgian-tariff-numbers.md)
 #### [Belgische Intrastat-Berichte](LocalFunctionality/Belgium/belgian-intrastat-reporting.md)
-#### [Einrichten von Intrastat-Einrichtungspositionen](LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md)    
-#### [Intrastat-Formularerklärung drucken](LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report.md).
+#### [Einrichten von Intrastat-Einrichtungspositionen](LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md)
+#### [Intrastat-Formularerklärung drucken](LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report.md)
 #### [Meldungsarten einrichten](LocalFunctionality/Belgium/how-to-set-up-declaration-types.md)
 #### [Exportieren von Intrastat-Drittanbieter-Deklarationen](LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations.md)
 ### Banking und Zahlungen
@@ -918,8 +940,7 @@
 #### [Einrichten von Verbrauchssteuer und Umsatzsteuer](LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax.md)
 ### Banking und Zahlungen
 #### [Erstellen von Anzahlungen](LocalFunctionality/Canada/how-to-create-deposits.md)
-#### [Verwalten von Debitoren-Kreditinformationen](LocalFunctionality/Canada/how-to-manage-customer-credit-information.md)
-#### [Elektronische Zahlungen machen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
+#### [Elektronische Zahlungen vornehmen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ### Allgemein
 #### [Problembehebungsberichte drucken](LocalFunctionality/Canada/how-to-print-troubleshooting-reports.md)
 #### [Arbeiten mit GIFI-Codes](LocalFunctionality/Canada/work-gifi-codes.md)
@@ -1002,21 +1023,21 @@
 #### [Zahlungsverwaltung](LocalFunctionality/France/payment-management.md)
 #### [Zahlungsbelege buchen](LocalFunctionality/France/how-to-post-payment-slips.md)
 ### Kernfinanzierung
+#### [Sachposten](LocalFunctionality/France/general-ledger.md)
 #### [Sachposten abrechnen](LocalFunctionality/France/how-to-apply-general-ledger-entries.md)
 #### [Sachpostenabrechnung aufheben](LocalFunctionality/France/how-to-unapply-general-ledger-entries.md)
-#### [Abschließen eines Jahres](LocalFunctionality/France/how-to-close-years.md)
-#### [Schließen Sie GuV-Konten](LocalFunctionality/France/how-to-close-income-statement-accounts.md)
-#### [Steuerliches Abschließen von Buchhaltungsperioden](LocalFunctionality/France/how-to-fiscally-close-accounting-periods.md)
-#### [Steuerliches Abschließen von Jahren](LocalFunctionality/France/how-to-fiscally-close-years.md)
+#### [Finanzbuchhaltungsberichte drucken](LocalFunctionality/France/how-to-print-general-ledger-reports.md)
+#### [Sachkontenabstimmung anzeigen](LocalFunctionality/France/how-to-view-ledger-reconciliations.md)
+#### [Festlegen von Buchhaltungsperioden:](LocalFunctionality/France/how-to-specify-posting-periods.md)
 #### [Steuerperioden und Geschäftsjahre](LocalFunctionality/France/fiscal-periods-and-fiscal-years.md)
-#### [Sachposten](LocalFunctionality/France/general-ledger.md)
+#### [Überblick über Jahresabschluss-Vorgänge](LocalFunctionality/France/year-end-processes-overview.md)
+#### [Steuerliches Abschließen von Buchhaltungsperioden](LocalFunctionality/France/how-to-fiscally-close-accounting-periods.md)
+#### [Schließen Sie GuV-Konten](LocalFunctionality/France/how-to-close-income-statement-accounts.md)
+#### [Abschließen eines Jahres](LocalFunctionality/France/how-to-close-years.md)
+#### [Steuerliches Abschließen von Jahren](LocalFunctionality/France/how-to-fiscally-close-years.md)
 #### [Ein neues Geschäftsjahresdoppel eröffnen](LocalFunctionality/France/how-to-open-a-new-fiscal-year-duplicate.md)
 #### [So buchen Sie den Jahresabschlussposten](LocalFunctionality/France/how-to-post-the-year-end-closing-entry.md)
-#### [Überblick über Jahresabschluss-Vorgänge](LocalFunctionality/France/year-end-processes-overview.md)
-#### [Finanzbuchhaltungsberichte drucken](LocalFunctionality/France/how-to-print-general-ledger-reports.md)
 #### [Buchhaltungsperioden erneut öffnen](LocalFunctionality/France/how-to-reopen-accounting-periods.md)
-#### [Festlegen von Buchhaltungsperioden:](LocalFunctionality/France/how-to-specify-posting-periods.md)
-#### [Sachkontenabstimmung anzeigen](LocalFunctionality/France/how-to-view-ledger-reconciliations.md)
 ### Anlagen
 #### [Einrichten von beschleunigten Abschreibungen](LocalFunctionality/France/how-to-set-up-accelerated-depreciation.md)
 #### [Beschleunigte Abschreibungen](LocalFunctionality/France/accelerated-depreciation.md)
@@ -1064,7 +1085,6 @@
 ## Island
 ### [Matrix](LocalFunctionality/Iceland/iceland-local-functionality.md)
 ### MwSt.
-#### [Isländische Steuerbestimmungen für bedingte Skonti](LocalFunctionality/Iceland/icelandic-tax-regulations-of-conditional-discounts.md)
 #### [MwSt-Zusammenfassungsinformationen auf Belegen drucken](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
 #### [Besondere Datenausgabe und Berichte für Steuerbehörden](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
 ### Elektronische Rechnungsstellung
@@ -1126,7 +1146,7 @@
 #### [Elektronische Rechnungsstellung einrichten](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
 #### [Elektronische Rechnungen generieren](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
 #### [Elektronische Buchhaltungs-Regelungen in Mexiko](LocalFunctionality/Mexico/electronic-accounting-regulations.md)
-#### [Elektronische Zahlungen machen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
+#### [Elektronische Zahlungen vornehmen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ### Allgemein
 #### [PAC-Webdienste einrichten](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
 #### [Problembehandlungsberichte drucken](LocalFunctionality/Mexico/how-to-print-troubleshooting-reports.md)  
@@ -1156,7 +1176,6 @@
 #### [Zahlungsverlauf erstellen und exportieren](LocalFunctionality/Netherlands/how-to-create-and-export-payment-history.md)
 #### [Importieren und Abstimmen von Bankabrechnungen](LocalFunctionality\Netherlands\how-to-import-and-reconcile-bank-statements.md)
 ### Kernfinanzierung
-#### [Sachposten](LocalFunctionality/Netherlands/general-ledger.md)
 #### [Ausgleichen und Ausgleich Aufheben von Sachposten](LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries.md)
 #### [Notwendige Beschreibungen in den Sachkosten](LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry.md)
 ### Einkauf
@@ -1236,7 +1255,7 @@
 #### [OCR-Zahlungen einrichten](LocalFunctionality/Norway/how-to-set-up-ocr-payments.md)
 #### [Importieren und buchen von OCR-Zahlungen](LocalFunctionality/Norway/how-to-import-and-post-ocr-payments.md)
 #### [Drucken des OCR-Buch-Blatt-Testberichts](LocalFunctionality/Norway/how-to-print-the-ocr-journal-test-report.md)  
-### Kernfinanzierung    
+### Kernfinanzierung
 #### [Sachposten in in abgeschlossenen Perioden ausgleichen](LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods.md)  
 ### Allgemein
 #### [Wiederkehrende Aufträge](LocalFunctionality/Norway/recurring-orders.md)  
@@ -1343,7 +1362,6 @@
 #### [MwSt.-Abrechnungen im Text-Format exportieren](LocalFunctionality/Spain/how-to-export-vat-statements-in-text-format.md)
 #### [Äquivalenzabschlag](LocalFunctionality/Spain/equivalence-charges-ec-.md)
 ### Banking und Zahlungen  
-#### [Elektronische Zahlungen AEB N34.1](LocalFunctionality/Spain/electronic-payments-aeb-n34.1.md)
 #### [Elektronische Zahlungen - AEB N34.1](LocalFunctionality/Spain/electronic-payments-aeb-n341.md)
 #### [Einrichten von Bankkonten für elektronischen Zahlungsverkehr](LocalFunctionality/Spain/how-to-set-up-bank-accounts-for-electronic-payments.md)
 #### [Kreditoren durch elektronische Zahlungen bezahlen](LocalFunctionality/Spain/how-to-pay-vendors-by-using-electronic-payments.md)
@@ -1392,7 +1410,7 @@
 #### [Schweizer Mehrwertsteuer](LocalFunctionality/Switzerland/swiss-value-added-tax.md)
 #### [Mehrwertsteuersätze der Schweiz](LocalFunctionality/Switzerland/vat-rates-for-switzerland.md)
 ### Banking und Zahlungen
-#### QR-Code auf schweizer Zahlungsbelegen
+#### [QR-Rechnungsverwaltung](LocalFunctionality/Switzerland/ui-extensions-qr-bill-management.md)
 #### [Eine LSV-Sammlung schließen](LocalFunctionality/Switzerland/how-to-close-an-lsv-collection.md)
 #### [Zahlungen mit LSV exportieren](LocalFunctionality/Switzerland/how-to-export-payments-using-lsv.md)
 #### [Importieren von ESR-Zahlungen](LocalFunctionality/Switzerland/how-to-import-esr-payments.md)
@@ -1422,7 +1440,7 @@
 ### Lagerbestand
 #### [Schweizer Lagerverwaltung](LocalFunctionality/Switzerland/swiss-inventory-management.md)
 #### [Drucken einer Lager-Kommissionierliste aus einem Verkaufsauftrag](LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md)
-### Allgemein    
+### Allgemein
 #### [Importieren von schweizer PLZ](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)
 #### [Schweizer Einkaufsbelege und Verkaufsaufträge](LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents.md)
 
@@ -1457,9 +1475,8 @@
 ### Banking und Zahlungen
 #### [Erstellen von Anzahlungen](LocalFunctionality/UnitedStates/how-to-create-deposits.md)  
 #### [Bankkonten abstimmen](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md)
-#### [Elektronische Zahlungen machen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
+#### [Elektronische Zahlungen vornehmen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ### Allgemein
-#### [Gewusst wie: Verwalten von Debitoren-Kreditinformationen](LocalFunctionality/UnitedStates/how-to-manage-customer-credit-information.md)  
 #### [Problembehebungsberichte drucken](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ## [Regulatorische Warnungen übermitteln](submit-regulatory-alerts.md)
 # Kompatibilität

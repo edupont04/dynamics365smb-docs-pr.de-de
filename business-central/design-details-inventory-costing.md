@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, costing
-ms.date: 11/25/2019
-ms.author: sgroespe
-ms.openlocfilehash: 667adfcc9c470a9d4dbf26923fe5e6edfc7ed85a
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.date: 04/01/2020
+ms.author: edupont
+ms.openlocfilehash: 65f298199d4451a64f75ddb6ad34fefc30af3d7a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832191"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787771"
 ---
 # <a name="design-details-inventory-costing"></a>Designdetails: Lagerkostenberechnung
 Diese Dokumentation stellt einen detaillierten technischen Einblick in die Konzepte und Prinzipien bereit, die in den Lagerkostenfunktionen in [!INCLUDE[d365fin](includes/d365fin_md.md)] verwendet werden.  

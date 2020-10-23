@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 4034c9d6145d6cc76e8968376f28ef0bb3430db2
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 04/01/2020
+ms.author: edupont
+ms.openlocfilehash: 1d8d32239ae464702bb2d41babf720c2f85e17e6
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878653"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785721"
 ---
 # <a name="apply-configurations-to-new-companies"></a>Übernehmen von Konfiguration in neue Mandanten
 Nachdem Sie ein Konfigurationspaket erstellt haben, ist der nächste Schritt, das Paket für Ihren Kunden zur Implementierung bereitzustellen. Verwenden Sie die Konfiguration mit einem neuen leeren Mandanten.  

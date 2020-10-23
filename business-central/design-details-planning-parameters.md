@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 37dfdf4805e5d11f2ede11f8b0454407debe9940
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 04/20/2020
+ms.author: edupont
+ms.openlocfilehash: 5d7c419158134c78993c00d6644bb828dd3be1a9
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306964"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787371"
 ---
 # <a name="design-details-planning-parameters"></a>Designdetails: Planungsparameter
 Dieses Thema beschreibt die verschiedenen Planungsparameter, die Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden können.  
@@ -75,30 +75,32 @@ Um einen rationalen Beschaffungsplan zu erhalten, kann ein Planer Planungsparame
 |Feld|Beschreibung|  
 |---------------------------------|---------------------------------------|  
 |**Neuplanungsperiode**|Dieses Feld wird verwendet, um zu ermitteln, ob die Ereignismeldung einen bestehenden Auftrags neu planen oder diesen stornieren und einen neuen Auftrag erstellen soll. Der bestehende Auftrag wird innerhalb einer Neuplanungsperiode vor dem aktuellen Vorrat und bis zu einer Neuplanungsperiode nach dem aktuellen Vorrat neu geplant.|  
-|**Loskumulierungsperiode**|Mit dem Wiederbeschaffungsverfahren Los-für-Los wird dieses Feld verwendet, um mehrere Bedarfsposten in einem Beschaffungsauftrag zusammenzufassen. Ab dem ersten geplanten Vorrat werden alle Bedarfsposten in der folgenden Loskumulierungsperiode in einen Beschaffungsauftrag zusammengefasst, der am Tag des ersten Bedarfs aufgeben wird. Ein Bedarfsposten, der außerhalb der Loskumulierungsperiode liegt, wird nicht durch den Beschaffungsauftrag abgedeckt.|  
+|**Loskumulierungsperiode**|Mit dem Wiederbeschaffungsverfahren „Los-für-Los“ wird dieses Feld verwendet, um mehrere Bedarfsposten in einem Beschaffungsauftrag zusammenzufassen. Ab dem ersten geplanten Vorrat werden alle Bedarfsposten in der folgenden Loskumulierungsperiode in einen Beschaffungsauftrag zusammengefasst, der am Tag des ersten Bedarfs aufgeben wird. Ein Bedarfsposten, der außerhalb der Loskumulierungsperiode liegt, wird nicht durch den Beschaffungsauftrag abgedeckt.|  
 |**Toleranzperiode**|Dieses Feld wird verwendet, um kleinere Neuplanungen für vorhandenen Bedarf rechtzeitig zu vermeiden. Ändert das Lieferdatum, bis eine Toleranzperiode ab dem Lieferdatum keine Ereignismeldungen mehr generiert.<br /><br /> Die Toleranzperiode definiert eine Zeitspanne, die das Planungssystem nicht vorschlagen soll, um bestehende Beschaffungsaufträge in der Planung vorzuverlegen. Dies schränkt die Anzahl der geringfügigen Neuplanungen für vorhandenen Bedarf auf ein späteres Datum ein, wenn dieses neue Datum innerhalb der Toleranzperiode liegt.<br /><br /> Deshalb ist ein positives Delta zwischen dem vorgeschlagenen neuen Lieferdatum und dem ursprünglichen Lieferdatum immer größer als die Toleranzperiode.|  
+> [!NOTE]
+> Beim Wiederbeschaffungsverfahren Los-für-Los muss der Wert des Felds **Loskumulierungsperiode** dem Wert des Felds **Toleranzperiode** entsprechen oder größer als dieser sein. Andernfalls wird die Toleranzperiode während der Planungsroutine automatisch reduziert, um der Loskumulierungsperiode zu entsprechen.  
 
 Die Terminierung für die Neuplanungsperiode, die Toleranzperiode und die Loskumulierungsperiode basiert auf einem Lieferdatum. Das Zeitrahmen basiert auf dem Planungsstartdatum, wie in der folgenden Abbildung gezeigt.  
 
-![Zeitrahmenelemente](media/supply_planning_5_time_bucket_elements.png "Zeitrahmenelemente")  
+![Zeitrahmenelemente](media/supply_planning_5_time_bucket_elements.png "Zeitbereich-Elemente")  
 
 In den folgenden Beispielen stellen die schwarzen Pfeile vorhandenen Bedarf (aufwärts) und Bedarf dar (abwärts). Rote, grüne und orange Pfeile sind Planungsvorschläge.  
 
 **Beispiel 1**: Das geänderte Datum liegt außerhalb der Neuplanungsperiode, wodurch der bestehende Vorrat storniert wird. Ein neuer Vorrat wird vorgeschlagen, um den Bedarf in der Loskumulierungsperiode zu decken.  
 
-![Neuplanungsperiode und Loskumulierungsperiode](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Neuplanungsperiode und Loskumulierungsperiode")  
+![Neuplanungsperiode und Losakkumulationsperiode](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Neuplanungsperiode und Losakkumulationsperiode")  
 
 **Beispiel 2**: Das geänderte Datum liegt innerhalb der Neuplanungsperiode, wodurch der bestehende Vorrat neu geplant wird. Ein neuer Vorrat wird vorgeschlagen, um den Bedarf außerhalb der Loskumulierungsperiode zu decken.  
 
-![Neuplanungsperiode und Loskumulierungsperiode und Neuplanung](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Neuplanungsperiode und Loskumulierungsperiode und Neuplanung")  
+![Neuplanungsperiode, Losakkumulationsperiode und Neuplanung](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Neuplanungsperiode, Losakkumulationsperiode und Umplanung")  
 
 **Beispiel 3**: Es gibt einen Bedarf in der Toleranzperiode, und die Vorratsmenge in der Loskumulierungsperiode entspricht der Vorratsmenge. Der nächste Bedarf wird aufgedeckt, und ein neuer Vorrat wird vorgeschlagen.  
 
-![Toleranzperiode und Loskumulierungsperiode](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Toleranzperiode und Loskumulierungsperiode")  
+![Toleranzperiode und Lotakkumulationsperiode](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Toleranzperiode und Losakkumulationsperiode")  
 
 **Beispiel 4**: Es gibt einen Bedarf in der Toleranzperiode, und der Vorrat bleibt auf dem selben Datum. Die derzeitige Vorratsmenge reicht jedoch nicht aus, um den Bedarf in der Loskumulierungsperiode zu decken; daher wird eine Mengenänderungsaktion für den vorhandenen Beschaffungsauftrag empfohlen.  
 
-![Toleranzperiode, Loskumulierungsperiode und Mengenänderung](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Toleranzperiode, Loskumulierungsperiode und Mengenänderung")  
+![Toleranzperiode, Losakkumulationsperiode und Änderungsmenge](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Toleranzperiode , Losakkumulationsperiode und Änderungsmenge")  
 
 **Vorgabewerte**: Der Vorgabewert des **Zeitrahmen**-Feldes und der drei Nachbestellungsperiodenfelder ist leer. Für alle Felder mit Ausnahme des Felds **Toleranzperiode** bedeutet dies 0D (Null Tage). Wenn das Feld **Toleranzperiode** leer ist, wird der Wert im Feld **Standardtoleranzperiode** auf der Seite **Produktion Einrichtung** verwendet.  
 

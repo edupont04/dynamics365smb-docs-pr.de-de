@@ -9,16 +9,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms.search.keywords: workflow, OData, Power App, SOAP
-ms.date: 11/20/2019
+ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: 24ca66c2d533f4a3e30eb1ebaca817915b95c370
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.openlocfilehash: c2fbd841332ff48bd4716a082b0c9ef2bb9ac6df
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832022"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528988"
 ---
-# <a name="using-includeprodshortincludesprodshortmd-in-an-automated-workflow"></a>[!INCLUDE[prodshort](includes/prodshort.md)] in einem automatisierten Workflow nutzen
+# <a name="using-prodshort-in-an-automated-workflow"></a>[!INCLUDE[prodshort](includes/prodshort.md)] in einem automatisierten Workflow nutzen
 
 Sie können Ihre [!INCLUDE[prodshort](includes/prodshort.md)]-Daten als Teil eines Workflows in Microsoft Power Automate verwenden.
 
@@ -28,7 +28,7 @@ Sie können Ihre [!INCLUDE[prodshort](includes/prodshort.md)]-Daten als Teil ein
 > [!NOTE]  
 > Sie müssen ein gültiges Konto bei [!INCLUDE[prodshort](includes/prodshort.md)] und Power Automate haben.  
 
-## <a name="to-add-includeprodshortincludesprodshortmd-as-a-data-source-in-power-automate"></a>So fügen Sie [!INCLUDE[prodshort](includes/prodshort.md)] als Datenquelle in Power Automate hinzu
+## <a name="to-add-prodshort-as-a-data-source-in-power-automate"></a>So fügen Sie [!INCLUDE[prodshort](includes/prodshort.md)] als Datenquelle in Power Automate hinzu
 
 1. In Ihrem Browser navigieren Sie zu [flow.microsoft.com](https://flow.microsoft.com) und melden sich dann an.
 2. Wählen Sie **Meine Flows** im Menüband oben auf der Seite.
@@ -55,7 +55,7 @@ Sie können Ihre [!INCLUDE[prodshort](includes/prodshort.md)]-Daten als Teil ein
     > [!NOTE]
     > Der [!INCLUDE[prodshort](includes/prodshort.md)] Connector for Microsoft Dynamics for Power Automate unterstützt mehrere Produktions- und Sandbox-Umgebungen. Wenn Sie nicht mehrere Produktions- oder Sandbox-Umgebungen erstellt haben, ist **Produktion** die einzige verfügbare Option, die Sie auswählen können.  
 
-    Zu diesem Zeitpunkt haben Sie sich erfolgreich mit Ihren Business Central[!INCLUDE [prodshort](includes/prodshort.md)]-Daten verbunden und sind bereit, Ihren Flow zu erstellen.
+    Zu diesem Zeitpunkt haben Sie sich erfolgreich mit Ihren Business Central[!INCLUDE[prodshort](includes/prodshort.md)]-Daten verbunden und sind bereit, Ihren Flow zu erstellen.
 
 9. Um aus einer Vorlage zu erstellen, wählen Sie die Option **Mit Vorlage erstellen** aus.
 10. Suchen Sie nach **Microsoft [!INCLUDE[prodlong](includes/prodlong.md)]**-Vorlangen.

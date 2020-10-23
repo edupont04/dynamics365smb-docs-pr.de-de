@@ -1,30 +1,30 @@
 ---
 title: Lernkatalog für Geschäftsentscheider
 description: Lernkatalog für Geschäftsentscheider
-author: SusanneWindfeldPedersen
-ms.custom: na
-ms.date: 11/06/2019
+author: loreleishannonmsft
+ms.date: 04/01/2020
 ms.topic: article
-ms.service: dynamics365-business-central
-ms.author: solsen
-ms.openlocfilehash: fee5c53d49e8a03fce2c7274f6e41689905dab7c
-ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
+ms.author: margoc
+ms.openlocfilehash: 291880649b33727e7aec05f698939f1683b1af09
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2767752"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778790"
 ---
 # <a name="business-decision-makers-learning-catalog"></a>Lernkatalog für Geschäftsentscheider
 
+Entscheiden Sie sich, ob Sie in neue Technologien investieren wollen?
+
 Der folgende Katalog ist vom Kernwissen bis zu spezifischen Bereichen organisiert, von grundlegend bis fortgeschritten. Wenn Inhalte in mehreren Formaten vorliegen, werden wir Sie darüber informieren, so dass Sie das für Ihre Bedürfnisse am besten geeignete Trainingsformat auswählen können.  
 
-## Geschäftswert<a name="busvalue"></a>
+## <a name="business-value"></a>Geschäftswert<a name="busvalue"></a>
 
 | Inhalt                                                                 | Beschreibung                                                                                                | Format                                | Länge     |
 |----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------|------------|
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/) | Dieses Modul zeigt Anwendungsmerkmale, Vorteile und Beispiele für Dynamics 365 Business Central in Aktion. | Kostenloser, selbstbestimmter Online-Lernpfad mit eigenem Tempo | 24 Minuten |
 
-## Erste Schritte<a name="get-started"></a>
+## <a name="getting-started"></a>Erste Schritte<a name="get-started"></a>
 
 | Inhalt                                                                                                                             | Beschreibung                                                                                                                                                                                                                                                                                      | Format                                | Länge             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|

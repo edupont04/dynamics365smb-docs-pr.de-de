@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: b2f9a47ac12544d3ede5b01c7a45b50edb2d156b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 04/01/2020
+ms.author: edupont
+ms.openlocfilehash: fdcced8a62cb64f28d3e4d274271c4cf8f27d0d7
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306532"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780260"
 ---
 # <a name="fixed-assets"></a>Anlagen
 Die Anlagenfunktion in [!INCLUDE[d365fin](includes/d365fin_md.md)] gibt Ihnen einen Überblick über Ihre Anlagen und stellt die korrekten periodischen Abschreibungen sicher. Außerdem erhalten Sie dort einen Überblick über die Wartungskosten, können die Versicherungen verwalten, Anlagentransaktionen buchen und verschiedene Berichte und Statistiken generieren.
@@ -48,9 +48,14 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 | Buchen von Verkaufstransaktionen, Anzeigen von Verkaufsposten und Buchen von Teilverkäufen |[Anlagen entsorgen oder außer Dienst stellen](fa-how-dispose-retire.md) |
 | Verwalten von Anlagenbudgets, Budgetieren von Anschaffungskosten, Budgetieren von Anlagenverkäufen und Budgetieren der AfA. |[Budgets für Anlagen verwalten.](fa-how-manage-budgets.md) |
 
+## <a name="video-overview"></a>Videoübersicht
+Das folgende Video behandelt die Grundlagen des Anlagevermögens.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
+
 ## <a name="see-also"></a>Siehe auch
 [Anlagen einrichten](fa-setup.md)  
-[Funktionen, die angezeigt werden ändern](ui-experiences.md)  
+[Ändern, welche Funktionen angezeigt werden](ui-experiences.md)  
 [Finanzen](finance.md)  
 [Erste Schritte](product-get-started.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

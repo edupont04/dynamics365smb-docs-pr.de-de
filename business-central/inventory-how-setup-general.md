@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 11/12/2019
-ms.author: SorenGP
-ms.openlocfilehash: 36c5446a2297dd0208104d22a7d2fd96077b3590
-ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
+ms.date: 04/01/2020
+ms.author: edupont
+ms.openlocfilehash: 9ca38111f2a5f61bd9a815d7b37dd8696b85a7d0
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "2798401"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785671"
 ---
 # <a name="set-up-general-inventory-information"></a>So richten Sie allgemeine Lagerbestandsinformationen ein
 Sie geben Ihre allgemeine Lagerbestandseinrichtung auf der Seite **Lager Einrichtung** an.

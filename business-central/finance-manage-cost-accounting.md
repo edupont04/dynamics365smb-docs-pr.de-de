@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
-ms.author: sgroespe
-ms.openlocfilehash: 0b93073c8d8c6ad639d27644719c4c5b40cda6fe
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.date: 04/01/2020
+ms.author: edupont
+ms.openlocfilehash: 69f39226c5fcca8adf9843bad42a2f060e7386d8
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952650"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781060"
 ---
 # <a name="accounting-for-costs"></a>Kostenrechnung
 Kostenrechnung wird verwendet, um Ihnen dabei zu helfen, die Kosten des Betriebs eines Geschäftes zu erkennen. Um mit der Kostenrechnung anzufangen, sehen Sie sich die folgenden Themen an.  
@@ -30,7 +30,7 @@ Kostenrechnung wird verwendet, um Ihnen dabei zu helfen, die Kosten des Betriebs
 |Erlernen Sie die Prozesse beim Erstellen von Kostenbudgets.|[Erstellen von Kostenbudgets](finance-create-cost-budgets.md)|
 |Wenn Sie Kostenposten aus dem Kostenjournal stornieren.|[Kostenbu&dgetposten löschen](finance-how-to-delete-cost-budget-entries.md)|
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsuse-cost-accounting-dynamics-365-business-central"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch  
 [Finanzen](finance.md)  

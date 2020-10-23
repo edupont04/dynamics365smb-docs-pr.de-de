@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 470d2542864b8d0e0f16f89fd99e422807829404
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 04/01/2020
+ms.author: edupont
+ms.openlocfilehash: cee71cea69468a45b2e731632fce3827c54794c1
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310804"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781335"
 ---
 # <a name="customize-pages-for-profiles"></a>Seiten für Profile anpassen
 Benutzer können Seiten für ihren Arbeitsbereich personalisieren, um ihren Bedürfnissen zu entsprechen. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
@@ -30,18 +30,18 @@ Administratoren können Seiten für ein Profil anpassen, z. B. entsprechend der 
 Die Seitenanpassung beginnt mit **Profile (Rollen)** Seite, Ausgangspunkt des Administrators für die Verwaltung der Benutzerprofile auf einzelnen Profilkarten. Zusätzlich zum Anpassen des Seitenlayouts steuern Sie verschiedene andere Einstellungen für Profile in der **Profil (Rolle)** Seite für jedes Profil. Weitere Informationen finden Sie unter [Profile verwalten](admin-users-profiles-roles.md).
 
 ## <a name="to-customize-pages-for-a-profile"></a>Um Seiten für ein Profil anzupassen
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Profile (Rollen)** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie die ![Glühbirne , die das Tell Me Feature](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol öffnet, geben Sie **Profile (Rollen)** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie dir Zeile für die Personalisierungsseite, die Sie löschen möchten, und wählen die Aktion **Bearbeiten** aus.
 3. Wählen Sie die Aktion **Seiten anpassen**.
 
-    [!INCLUDE[d365fin](includes/d365fin_md.md)] öffnet eine neue Browser-Registerkarte für das ausgewählte Profil mit dem Banner **Anpanssen** Banner aktiviert. Das **Anpassen** Banner bietet die gleiche Funktionalität wie das **Personalisierung** Banner, das den Benutzern zur Verfügung steht.
+    [!INCLUDE[d365fin](includes/d365fin_md.md)] öffnet eine neue Browser-Registerkarte für das ausgewählte Profil mit dem Banner **Anpassen** Banner aktiviert. Das **Anpassen** Banner bietet die gleiche Funktionalität wie das **Personalisierung** Banner, das den Benutzern zur Verfügung steht.
 
 4. Passen Sie die Seiten an die Anforderungen der jeweiligen Rolle oder Abteilung an, so wie es ein Benutzer bei der Personalisierung tun würde. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
 
     > [!NOTE]
     > Um während der Personalisierung zu navigieren, drücken Sie Strg + Klicken auf eine Aktion, wenn diese durch die Pfeilspitze hervorgehoben ist.
 
-5. Wenn Sie das Layout einer oder mehrerer Seiten geändert haben, wählen Sie die Schaltfläche **Fertig** im Banner **Anpassung**.
+5. Wenn Sie das Layout einer oder mehrerer Seiten geändert haben, wählen Sie die Schaltfläche **Fertig** im Banner **Anpassen**.
 6. Schließen Sie die Browser-Registerkarte.
 
 Die Anpassung von Seiten wird jetzt für das Profil aufgezeichnet.
@@ -70,5 +70,5 @@ Das Layout der ausgewählten Seiten wird an die von Ihnen vorgenommenen Änderun
 [Ihren Arbeitsbereich personalisieren](ui-personalization-user.md)  
 [Profile verwalten](admin-users-profiles-roles.md)  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
-[Funktionen, die angezeigt werden ändern](ui-experiences.md)  
+[Ändern, welche Funktionen angezeigt werden](ui-experiences.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

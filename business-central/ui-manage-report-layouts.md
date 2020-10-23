@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 01/13/2020
-ms.author: sgroespe
-ms.openlocfilehash: 79e3f15169f592c5e90aacfd3307794f226adeb2
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.date: 04/01/2020
+ms.author: edupont
+ms.openlocfilehash: 6e1d0fe0a20051a5368fec193a12cfce5c907901
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953203"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781385"
 ---
 # <a name="managing-report-and-document-layouts"></a>Verwaltung von Berichts- und Beleg-Layouts
 Ein Berichtlayout steuert Inhalt und Format des Berichts, auch, welche Datenfelder eines Berichtsdatasets im Bericht erscheinen und wie sie angeordnet werden, Text-Format, Bilder und mehr. Von [!INCLUDE[d365fin](includes/d365fin_md.md)] aus können Sie ändern, welches Layout in einem Bericht verwendet wird, ein neues Layout erstellen oder vorhandene Layouts ändern.
@@ -58,7 +58,7 @@ Der Prozess für die Einrichtung von Word-Berichtslayouts und RDLC-Berichtslayou
 
 Weitere Informationen darüber, wie das Layout, das verwendet wird, geändert werden kann, finden Sie unter [Aktuelles Berichtslayout ändern](ui-how-change-layout-currently-used-report.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Siehe auch
 [Benutzerdefinierte Berichtslayouts aktualisieren](ui-update-report-layouts.md)  

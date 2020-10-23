@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 01/10/2020
+ms.date: 08/12/2020
 ms.author: edupont
-ms.openlocfilehash: 572e56b6d1ba95a427faed89c2f86471c0fea929
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 180c28057fd7da133f2f0770ba515d3eabb1af05
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952890"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693124"
 ---
-# <a name="local-functionality-in-includeprodlongincludesprodlongmd"></a>Lokale Funktion in [!INCLUDE[prodlong](includes/prodlong.md)]
+# <a name="local-functionality-in-prodlong"></a>Lokale Funktion in [!INCLUDE[prodlong](includes/prodlong.md)]
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] verfügt über eine kombinierte Lokalisierungsstrategie, inklusive von Microsoft geführter und partnergeführter Modelle. In diesem Abschnitt können Sie Beschreibungen der Funktionen anzeigen, die für die Länder gelten, in denen Microsoft die regulatorische Kompatibilität und andere Funktionen bereitstellt.  
 
@@ -25,7 +25,7 @@ Eine Liste der derzeit unterstützten Märkte finden Sie unter [Verfügbarkeit n
 
 ## <a name="local-functionality"></a>Lokale Funktionalität
 
-Wählen Sie den entsprechenden Link, um mehr über die lokalen Funktionen für jedes Land zu erfahren:
+Wählen Sie den entsprechenden Link, um mehr über die lokalen Funktionen für jedes Land/jede Region zu erfahren:
 
 | Region | Land | Weitere Informationen |
 | --- | --- |--- |
@@ -54,9 +54,11 @@ Wählen Sie den entsprechenden Link, um mehr über die lokalen Funktionen für j
 |        | Neuseeland | [Lokale Funktion (Neuseeland)](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
 ### <a name="other-countries"></a>Andere Länder
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ist über Lokalisierungs-Apps auch in anderen Märkten verfügbar. Wenn ein Microsoft-Partner eine Lokalisierungs-App für Ihr Land entwickelt hat, finden Sie diese in [AppSource](https://appsource.microsoft.com/product/dynamics-365-business-central/).
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ist über Lokalisierungs-Apps auch in anderen Märkten verfügbar. Wenn ein Microsoft-Partner eine Lokalisierungs-App für Ihr Land/Ihre Region entwickelt hat, finden Sie diese in [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
 ## <a name="see-also"></a>Siehe auch
+
 [Erste Schritte](product-get-started.md)  
 [Kompatibilität](compliance/compliance-overview.md)  
 [Verfügbarkeit in Ländern/Regionen und unterstützte Übersetzungen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  

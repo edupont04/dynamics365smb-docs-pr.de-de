@@ -1,17 +1,16 @@
 ---
 title: Business Central Lernkatalog
 description: Business Central Lernkatalog
-ms.topic: article
-ms.date: 11/05/2019
-ms.service: dynamics365-business-central
 author: loreleishannonmsft
-ms.author: v-lshann
-ms.openlocfilehash: eb1dddd4a3c87fec6627d83ba701ef87caa7eada
-ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
+ms.date: 04/01/2020
+ms.topic: article
+ms.author: margoc
+ms.openlocfilehash: a8a235e07b887653d2b1a68acb03c6b589bc358c
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2767775"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778765"
 ---
 # <a name="business-central-learning-catalog"></a>Business Central Lernkatalog
 Finden Sie das richtige Online-Schulung, persönliche Workshops und Veranstaltungen für Ihre Rolle als Business Central-Anwender oder -Partner.
@@ -23,7 +22,7 @@ Finden Sie das richtige Online-Schulung, persönliche Workshops und Veranstaltun
 
     Entscheiden Sie sich, ob Sie in neue Technologien investieren wollen? 
 
-    [Geschäftsentscheider Lernkatalog ](readiness-learning-bus-decision-makers.md)
+    [Lernkatalog für Geschäftsentscheider ](readiness-learning-bus-decision-makers.md)
 
     [Geschäftswert](readiness-learning-bus-decision-makers.md#busvalue)
 

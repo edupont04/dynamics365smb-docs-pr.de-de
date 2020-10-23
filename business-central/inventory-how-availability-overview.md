@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 01/25/2020
-ms.author: SorenGP
-ms.openlocfilehash: 58f4787a5e9bb845fc72b2ce6d9a1872c4245ee4
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.date: 04/01/2020
+ms.author: edupont
+ms.openlocfilehash: a21bc82cc065f3d05863d3d3f9959dc4269a739a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991904"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780035"
 ---
 # <a name="view-the-availability-of-items"></a>Artikelverfügbarkeit anzeigen
 Vom Kontext einer Geschäftsaufgabe können Sie erweiterte Informationen darüber erhalten, wann und wo ein Artikel verfügbar ist, so als ob Sie mit einem Debitoren über ein Lieferdatum sprechen.
@@ -80,9 +80,9 @@ Sie zeigen die Verfügbarkeit aller Ihrer Artikel über alle Lagerplätze hinweg
 3. Wählen Sie den Wert im Feld **Verfügbarkeitssaldo**, um die Artikelposten anzuzeigen, aus denen sich der Wert zusammensetzt.
 
 ## <a name="to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms"></a>Um die Verfügbarkeit eines Artikels nach dessen Verwendung in den Montage- oder Produktionsstücklisten anzuzeigen
-Wenn ein Artikel in den Montage- oder Produktionsstücklisten, entweder als übergeordneter Artikel oder als Komponente vorhanden ist, dann können Sie anzeigen, wie viele Einheiten davon auf der Seite **Artikelverfügbarkeit nach Stücklistenebene** erforderlich sind. Die Seite zeigt Verfügbarkeitszahlen für Stücklistenartikel an, die angeben, wie viele Einheiten eines übergeordneten Elements Sie auf Basis der Verfügbarkeit untergeordneter Elemente erstellen können. Jeder Artikel, der eine Montage- oder Produktionsstückliste hat, wird auf der Seite als reduzierbare Zeile angezeigt. Sie können diese Zeile erweitern, um die zugrunde liegenden Komponenten und Unterbaugruppen auf niedrigeren Ebenen mit ihren eigenen Stücklisten anzuzeigen.
+Wenn ein Artikel Teil von Montage- oder Produktionsstücklisten, entweder als übergeordneter Artikel oder als Komponente ist, können Sie anzeigen, wie viele Einheiten davon auf der Seite **Artikelverfügbarkeit nach Stücklistenebene** erforderlich sind. Die Seite zeigt Verfügbarkeitszahlen für Stücklistenartikel an, die angeben, wie viele Einheiten eines übergeordneten Artikels Sie auf Basis der Verfügbarkeit untergeordneter Elemente erstellen können. Jeder Artikel, der eine Montage- oder Produktionsstückliste hat, wird auf der Seite als reduzierbare Zeile angezeigt. Sie können diese Zeile erweitern, um die zugrunde liegenden Komponenten und Unterbaugruppen auf niedrigeren Ebenen mit ihren eigenen Stücklisten anzuzeigen.
 
-Sie können die Seite verwenden, um zu ermitteln, ob Sie einen Verkaufsauftrag für einen Artikel an einem bestimmten Datum ausführen können, indem Sie seine aktuelle Verfügbarkeit und die Mengen anzeigen, die von den Komponenten geliefert werden können. Sie können die Seite auch verwenden, um Engpässe in verknüpften Stücklisten zu identifizieren.
+Sie können anhand der Seite beispielsweise ermitteln, ob Sie einen Verkaufsauftrag für einen Artikel an einem bestimmten Datum ausführen können, indem Sie seine aktuelle Verfügbarkeit und die Mengen anzeigen, die von den Komponenten geliefert werden können. Sie können die Seite auch verwenden, um Engpässe in verknüpften Stücklisten zu identifizieren.
 
 In jeder Zeile auf der Seite für übergeordnete und untergeordnete Elemente, geben folgende Schlüsselfelder die Verfügbarkeitszahlen an. Sie können diese Zahlen für Zusagen im Hinblick darauf verwenden, wie viele Einheiten eines übergeordneten Artikels Sie liefern können, wenn Sie mit der betreffenden Montage oder Fertigung beginnen.
 
@@ -99,8 +99,11 @@ Die Seite **Artikelverfügbarkeit nach Stücklistenebene** zeigt Informationen f
 
 Das Feld **Engpass** gibt an, welcher Artikel in der Stücklistenstruktur verhindert, dass eine größere Menge als die im Feld **Festlegen als übergeord. Artikel möglich** angezeigte Menge hergestellt werden kann. Beispielsweise kann der Engpass-Artikel eine eingekaufte Komponente mit einem erwarteten Lieferdatum sein, die aber zu spät eintrifft, um zusätzliche Einheiten des Artikels bis zu dem Datum im Feld **Erforderlich bis Datum** herzustellen.
 
-### <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>So zeigen Sie die Verfügbarkeit eines Artikels anhand dessen Einheiten an
-Die Seite **Artikelverfügbarkeit nach Einheit** zeigt eine Artikelverfügbarkeit an, aufgeschlüsselt nach den verschiedenen Einheiten, in denen er gespeichert ist.
+## <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>So zeigen Sie die Verfügbarkeit eines Artikels anhand dessen Einheiten an
+Die Seite **Artikelverfügbarkeit nach Einheit** zeigt die Verfügbarkeit eines Artikels in den Maßeinheiten an, in denen er gespeichert ist.
+
+> [!NOTE]  
+> Um diese Informationen korrekt zu halten, müssen Sie Artikeleinheiten konvertieren. Wenn Sie beispielsweise einen Artikel in einer Maßeinheit kaufen, z. B. Kisten, und Artikel in einer anderen Maßeinheit verkaufen, z. B. Teile, müssen Sie eine Buch.-Blattzeile verwenden, um die Maßeinheiten zu konvertieren, oder Artikel „auspacken“. Sie können einen Artikel Buch.-Blattzeile für einen Abgang verwenden, um den Lagerbestand in der Einkaufsmaßeinheit, z. B. Kisten, zu reduzieren, und einen Zugang, um den Lagerbestand in der Verkaufsmengeneinheit, z. B. Stück, zu erhöhen. 
 
 ## <a name="assembly-availability-page"></a>Montageverfügbarkeitsseite
 Die Seite **Montageverfügbarkeit** zeigt detaillierte Verfügbarkeitsinformationen für den Montageartikel an. Es wird geöffnet:

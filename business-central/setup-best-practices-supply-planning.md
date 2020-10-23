@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: cbda83a386aa288cb6a845fd16c2c7dfb5c24e5f
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 10/01/2020
+ms.author: edupont
+ms.openlocfilehash: 9e191c68606cdafb3e88c6d81ebf6494f969918e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882200"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912846"
 ---
 # <a name="setup-best-practices-supply-planning"></a>Bewährte Einrichtungsmethoden: Beschaffungsplanung
 Die Beschaffungsplanung ist ein wichtiger Geschäftsbereich. Eingerichtet und korrekt eingesetzt hilft die Beschaffungsplanung einem Unternehmen, fehlende Lagerbestände zu vermeiden sowie Bestellungs- und Lagerkosten zu verringern.  

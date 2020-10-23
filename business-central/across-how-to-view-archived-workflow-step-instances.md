@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: a6797d407b2bb307e963b35ca8d8165982864b98
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 04/01/2020
+ms.author: edupont
+ms.openlocfilehash: 1fd402c3c081fcd4056254ffc6632f0b4f3164e5
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881048"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781935"
 ---
 # <a name="view-archived-workflow-step-instances"></a>Anzeigen von archivierten Workflowschritt-Instanzen
 Alle abgeschlossenen Workflowschritt-Instanzen werden auf der Seite **Archivierte Workflowinstanzen** gespeichert.  

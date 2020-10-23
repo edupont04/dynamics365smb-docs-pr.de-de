@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 9f4ef853d62e76ce3ade8062a341eb4336116028
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 07/23/2020
+ms.author: edupont
+ms.openlocfilehash: b13bc643a93d7558c4760791af81a9a6cc6190b2
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303508"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787671"
 ---
 # <a name="design-details-item-application"></a>Designdetails: Artikelausgleich
+
 Wenn Sie eine Lagertransaktion buchen, wird die Mengenbuchung in den Artikelposten, die Wertbuchungen in den Wertposten erfasst. Weitere Informationen finden Sie unter [Designdetails: Planungsbuchung](design-details-inventory-posting.md).  
 
 Darüber hinaus wird ein Artikelausgleich erstellt, um den Kostenempfänger mit seiner Kostenquelle zu verknüpfen, damit eine Kostenweiterleitung entsprechend der Kostenmethode erfolgen kann. Weitere Informationen finden Sie unter [Designdetails: Lagerabgangsmethoden".](design-details-costing-methods.md)  
@@ -40,15 +41,15 @@ Ob Mengen-Anwendungen oder Kostenanträge gemacht werden, hängt von der Richtun
 
 Die nachstehende Tabelle zeigt, basierend auf den zentralen Ausgleichsfeldern auf Lagertransaktionzeilen, wie die Kosten je nach Transaktionsrichtung fließen. Gibt auch an, wann und warum der Artikelausgleich den Typ Menge oder Kosten hat.  
 
-||Ausgleich mit Artikelpostenfeld|Ausgegl. von Artikelpostenfeld|  
+|-|Ausgleich mit Artikelpostenfeld|Ausgegl. von Artikelpostenfeld|  
 |-|--------------------------------|----------------------------------|  
 |Anwendung für ausgehenden Posten|Der ausgehende Posten ruft die Kosten aus dem offenen eingehenden Posten ab.<br /><br /> **Mengenausgleich**|Nicht unterstützt|  
 |Anwendung für eingehenden Posten|Der eingehende Posten verschiebt die Kosten in den offenen ausgehenden Posten.<br /><br /> Der eingehende Posten ist die Kostenquelle.<br /><br /> **Mengenausgleich**|Der eingehende Posten ruft die Kosten aus dem ausgehenden Posten ab. **Hinweis:**  Wenn dieser festen Ausgleich vorgenommen wird, wird die eingehende Transaktion als Verkaufsreklamation verarbeitet. Daher bleibt der ausgeglichene ausgehende Posten offen. <br /><br /> Der eingehende Posten ist NICHT die Kostenquelle.<br /><br /> **Ausgleich Lagerwert reguliert**|  
 
 > [!IMPORTANT]  
->  Eine Verkaufsreklamation gilt NICHT als Kostenquelle, wenn "Fest" angewendet wird.  
->   
->  Der Verkaufsposten bleibt offen, bis die tatsächliche Herkunft gebucht wird.  
+> Eine Verkaufsreklamation gilt NICHT als Kostenquelle, wenn "Fest" angewendet wird.  
+>
+> Der Verkaufsposten bleibt offen, bis die tatsächliche Herkunft gebucht wird.  
 
 In einem Artikelausgleichsposten werden folgende Informationen erfasst.  
 
@@ -71,7 +72,7 @@ Die folgende Tabelle zeigt den Artikelausgleichsposten, der erstellt wird, wenn 
 |01-01-20|1|0|10|1|  
 
 ## <a name="inventory-decrease"></a>Lagerabgänge  
-Wenn Sie einen Lagerabgang buchen, wird ein Artikelausgleichsposten erfasst, der den Lagerbagang mit einem Lagerzugang verknüpft. Diese verknüpfung wird erstellt, indem die Lagerabgangsmethode des Artikels verwendet wird. Für Artikel mit den Kostenberechnungsmethoden FIFO, Standard und Durchschnitt basiert die Verknüpfung auf dem FIFO-Prinzip. Die Bestandsminderung wird auf die Bestandserhöhung mit dem frühesten Buchungsdatum angewendet. Für Artikel mit der Kostenberechnungsmethode LIFO basiert die Verknüpfung auf dem LIFO-Prinzip. Die Bestandsminderung wird auf die Bestandserhöhung mit dem neuesten Buchungsdatum angewendet.  
+Wenn Sie einen Lagerabgang buchen, wird ein Artikelausgleichsposten erfasst, der den Lagerbagang mit einem Lagerzugang verknüpft. Diese Verknüpfung wird erstellt, indem die Lagerabgangsmethode des Artikels verwendet wird. Für Artikel mit den Kostenberechnungsmethoden FIFO, Standard und Durchschnitt basiert die Verknüpfung auf dem FIFO-Prinzip. Die Bestandsminderung wird auf die Bestandserhöhung mit dem frühesten Buchungsdatum angewendet. Für Artikel mit der Kostenberechnungsmethode LIFO basiert die Verknüpfung auf dem LIFO-Prinzip. Die Bestandsminderung wird auf die Bestandserhöhung mit dem neuesten Buchungsdatum angewendet.  
 
 In der Tabelle **Artikelposten** enthält das Feld **Restmenge die Menge**, für die es noch keine Verknüpfung gibt. Wenn die Restmenge größer als 0 ist, wird das Kontrollkästchen **Offen** aktiviert.  
 
@@ -189,7 +190,7 @@ Die folgende Tabelle zeigt die Auswirkung der exakten Kostenumkehrung der Wertpo
 Wenn Sie die Stapelverarbeitung **Kostenanpassung Artikeleinträge** ausführen, werden die erhöhten Kosten des Einkaufspostens aufgrund des Zu-/Abschlags (Artikelnummer) zum Verkaufsposten weitergeleitet (Postennummer 2). Der Verkaufsposten übergibt dann diese erhöhten Kosten an den Verkaufsgutschriftposten weiter (Postennummer 3). Das Endergebnis ist, dass die Kosten korrekt umgekehrt werden.  
 
 > [!NOTE]  
->  Wenn Sie mit Reklamationen oder Gutschriften arbeiten und im Feld **Einst.-Pr.-Rückverfolg. notw.** entweder die Seite **Kreditoren und Einkauf Einr** oder in **Debitoren und Verkauf Einr.** entsprechend Ihren Gegebenheiten Einstandspreisrückverfolgung eingerichtet haben, dann werden [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisch ausgefüllt, wenn Sie die Funktion **Beleg kopieren** verwenden. Wenn Sie die Funktion **Zu stornierende gebuchte Belegzeilen abrufen** verwenden, werden diese Felder immer automatsich ausgefüllt.  
+>  Wenn Sie mit Retouren oder Gutschriften arbeiten und das Feld **Einst.-Pr.-Rückverfolg. notw** entweder auf der Seite **Kreditoren & Einkauf Einr.** oder auf der Seite **Debitoren & Verkauf Einr.** entsprechend Ihrer Situation eingerichtet haben, dann füllt [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisch die verschiedenen Eingabefelder der Anwendung aus, wenn Sie die Funktion **Aus Dokument kopieren** verwenden. Wenn Sie die Funktion **Zu stornierende gebuchte Belegzeilen abrufen** verwenden, werden diese Felder immer automatsich ausgefüllt.  
 
 > [!NOTE]  
 >  Wenn Sie eine Transaktion mit einem festen Ausgleich buchen und der Artikelposten, zu dem Sie verknüpfen, ist geschlossen (d. h. die Restmenge ist gleich 0), wird automatisch der alte Ausgleich zurückgenommen und erneut mit dem Artikelposten ausgeglichen, wobei der von Ihnen angegebene feste Ausgleich verwendet wird.  

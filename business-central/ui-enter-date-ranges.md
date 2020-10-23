@@ -1,5 +1,5 @@
 ---
-title: Eingeben von Datumsangaben und Uhrzeiten in Business Central  | Microsoft Docs
+title: Eingeben von Datumsangaben und Uhrzeiten in Business Central | Microsoft Docs
 description: Erfahren Sie, wie Sie Datumsangaben und Uhrzeiten einschließlich verschiedener Produktivitätstipps wie Stenografie, Ausdrücke und Bereiche eingegeben. Filtern Sie Listen oder Berichte bis zu einem bestimmten Datum oder zu Zeiträumen.
 documentationcenter: ''
 author: SorenGP
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 22014c6df6ccffa08ff2fed25d40ce4c0312d57d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 04/01/2020
+ms.author: edupont
+ms.openlocfilehash: 122c1e602f9f7d1c50115ba1e6ba515694fc84a1
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315588"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785421"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Arbeiten mit Datumsangaben und Uhrzeiten in Kalendern
 
@@ -48,7 +48,7 @@ Um produktiver mit Datumswerten und Uhrzeiten zu arbeiten, können Sie alle Meth
 
 Alle Felder, die ein Kalendersymbol anzeigen, können mithilfe der Kalendertagauswahl festgelegt werden. Um die Kalendertagauswahl anzuzeigen, aktivieren Sie das Kalendersymbol oder drücken Sie die Tastenkombination STRG+POS1 im Feld.
 
-![Datumsfelder](media/ui-date-field.png "Beispiel eines Datumsfeldes")
+![Datumsfelder](media/ui-date-field.png "Beispiel für ein Datumsfeld")
 
 Weitere Informationen unter [Tastenkombinationen in der Kalenderdatumsauswahl](keyboard-shortcuts.md#calendarshortcuts).
 
@@ -121,7 +121,7 @@ Die folgende Tabelle enthält Beispiele von Datumsangaben, die alle diese Format
 |d 23|Dienstag von Woche 23 des Arbeitsjahres|
 |d-1|Dienstag von Woche 1 des Arbeitsjahres|
 
-##  <a name="BKMK_SettingDateRanges"></a> Festlegen von Breichen
+##  <a name="setting-ranges"></a><a name="BKMK_SettingDateRanges"></a> Festlegen von Breichen
 
 In Listen, Summen und Berichten können Sie Filter für Datumsangaben, Uhrzeiten, Datums-/Uhrzeitangaben einrichten, die einen Startwert und optional einen Endwert haben, um nur die Datumsangaben anzuzeigen, die in diesem Bereich enthalten sind. Die Standardregeln gelten für die Methode, auf die Sie Datumsbereiche festlegen.
 
@@ -185,7 +185,7 @@ Das folgende Beispiel zeigt, wie Sie diese drei Formulare nach Bedarf kombiniere
 
 |  Ausdruck  |  Bedeutung  |
 |--------------|-----------|
-|LM+10T|Aktueller Monat\+ 10 Tage|
+|LM+10T|Aktueller Monat \+ 10 Tage|
 
 Das folgende Beispiel zeigt, wie Sie ein Minuszeichen verwenden können, um anzugeben, dass es sich um ein Datum in der Vergangenheit handelt.
 

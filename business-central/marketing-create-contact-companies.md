@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 11/11/2019
-ms.author: sgroespe
-ms.openlocfilehash: cf7ef0013cac921ec7ab7b1fa505a9c2f0852a33
-ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
+ms.date: 04/01/2020
+ms.author: edupont
+ms.openlocfilehash: 463b14d5c20818691bcc130281e7cc4247da2c4c
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "2798571"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784157"
 ---
 # <a name="create-contacts"></a>Kontakt erstellen
 Sie treffen regelmäßig Personen aus anderen Unternehmen, die ggf. zu Geschäftsbeziehungen wie einer Kundenbeziehung werden. Wenn solch ein neuer Kontakt geknüpft wird, müssen so viele Informationen wie möglich auf einer Kontaktkarte erfasst werden, um eine weitere Kommunikation zu ermöglichen.
@@ -37,7 +37,7 @@ Die Funktionalität ist für beide Arten gleich, abgesehen davon, dass die Optio
 3. Geben Sie im Feld **Nr.** eine Nummer für den Kontakt ein.
 
     Wenn Sie auf der Seiter **Marketing und Vertrieb einrichten** eine Nummernserie für Kontakte eingegeben haben, können Sie alternativ auch die EINGABETASTE drücken, um die nächste verfügbare Kontaktnummer einzufügen.  
-5. Füllen Sie die verbleibenden Felder je nach Bedarf aus. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Füllen Sie die verbleibenden Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-create-a-contact-from-a-customer-vendor-or-bank-account"></a>So erstellen Sie einen Kontakt aus einem Debitor, Kreditor oder Bankkonto
 Wenn Sie Debitoren, Kreditoren und Bankkonten haben, für die Sie Kontaktkarten erstellen möchten, können Sie die Stapelverarbeitungen **Kontakte aus Debitoren/Kreditoren/Bankkonten erstellen** verwenden, um Kontakte auf der Basis von bestehenden Daten zu erstellen. Wenn Sie einen Kontakt auf diese Weise erstellen, werden die Kontaktinformationen anschließend mit den verbundenen Debitoren-, Kreditoren- oder den Bankkontoinformationen synchronisiert. Weitere Informationen finden Sie unter [Synchronisieren von Kontakten mit Debitoren, Kreditoren und Bankkonten](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).

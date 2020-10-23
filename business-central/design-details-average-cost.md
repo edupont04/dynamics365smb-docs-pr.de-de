@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: b26201d68a4ccc2a50b567275ad1dbe2ed0c55b1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 04/01/2020
+ms.author: edupont
+ms.openlocfilehash: efaad34052430c0f37d39f1c93737c94db36fc31
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307420"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3788196"
 ---
 # <a name="design-details-average-cost"></a>Designdetails: Durchschnittskosten
 Die Durchschnittskosten eines Artikels werden mit einem periodischen gewichteten Durchschnitt berechnet, basierend auf der Durchschnittskostenperiode, die in [!INCLUDE[d365fin](includes/d365fin_md.md)] eingerichtet wurde.  

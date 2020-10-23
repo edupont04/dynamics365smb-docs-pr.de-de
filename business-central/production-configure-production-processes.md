@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 1906bde8e23870cd9ade80dce5aed7d9b93b20a0
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 04/22/2020
+ms.author: edupont
+ms.openlocfilehash: b491287a3d59ffe220e91246fd6fbccbb9768115
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878047"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786921"
 ---
 # <a name="setting-up-manufacturing"></a>Produktion einrichten
 Damit Material zu Fertigerzeugnissen verarbeitet werden kann, müssen im System Fertigungsressourcen wie Maschinisten und Maschinen eingerichtet werden.
@@ -24,11 +24,14 @@ Maschinisten und Maschinen werden im System als Arbeitsplätze dargestellt, die 
 
 Wenn Sie Produktion eingerichtet haben, können Sie Fertigungsaufträge berechnen und ausfüllen. Weitere Informationen finden Sie unter [Planung](production-planning.md) und [Produktion](production-manage-manufacturing.md).  
 
+
+
  In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.   
 
 |**Aufgabe**|**Siehe**|  
 |------------|-------------|  
-|Konfigurieren der Produktionsfeatures, beispielsweise Definieren von Arbeitszeiten für den Fertigungsbereich und Auswählen von Planungsprinzipien|Öffnen Sie das **Produktion Einrichtung**-Fenster.|  
+|Konfigurieren Sie die Produktionsfeatures, indem Sie beispielsweise Arbeitszeiten für den Fertigungsbereich definieren und Planungsparameter auswählen.|Öffnen Sie das **Produktion Einrichtung**-Fenster.|
+|Legen Sie auf der Registerkarte **Planung** auf der Seite **Produktion Einrichtung** globale Planungsparameter fest, die die auf einzelnen Artikelkarten festgelegten Parameter überschreiben.|[Designdetails: Planungsparameter](design-details-planning-parameters.md)|
 |Definieren einer Standardarbeitswoche mit Anfangs- und Endzeit der einzelnen Arbeitstage und der zugehörigen Schichten|[Einkaufskalender einrichten](production-how-to-create-work-center-calendars.md)|  
 |Organisieren der festen Werte und des festen Bedarfs einer Fertigungsressource zum Steuern der fertig gestellten Mengen, die von einem Arbeitsplatz erstellt werden|[Arbeitsplätze und Arbeitsplatzgruppen einrichten](production-how-to-set-up-work-and-machine-centers.md)|
 |Organisieren der Fertigungsarbeitsgänge im entsprechenden Auftrag und Zuordnen der Arbeitsplätze oder Arbeitsplatzgruppen mit den benötigten Arbeitsstunden.|[Routings erstellen](production-how-to-create-routings.md)|

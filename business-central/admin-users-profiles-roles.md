@@ -5,16 +5,17 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 11/06/2019
-ms.author: sgroespe
-ms.openlocfilehash: 4c485d722de2a51f22310308b102ed066b4f01d2
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.date: 06/26/2020
+ms.author: edupont
+ms.openlocfilehash: 0d44ccf98ac02e24d1cd136bf1a0fe31b5bf0437
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809033"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786096"
 ---
 # <a name="manage-profiles"></a>Profile verwalten
+
 Alle Benutzer von [!INCLUDE[d365fin](includes/d365fin_md.md)] erhalten ein Profil, das ihre Geschäftsrolle, die Abteilung, in der sie arbeiten, oder eine andere Kategorisierung widerspiegelt. Mithilfe von Profilen können Administratoren zentral definieren und verwalten, welche Benutzertypen auf der Benutzeroberfläche angezeigt und ausgeführt werden können, damit sie ihre Geschäftsaufgaben effizient ausführen können.
 
 > [!NOTE]
@@ -79,12 +80,23 @@ Wenn ein Profil erstellt wird, können Sie verschiedene Kontrollkästchen aktivi
     - **Deaktivieren Sie die Personalisierung** um anzugeben, ob Benutzer der entsprechenden Rolle ihren Arbeitsbereich personalisieren können.
     - **Zeige im Rollen-Explorer**, um festzulegen, ob Aktionen für Geschäftsfunktionen, die im Profil enthalten sind, in der erweiterten Ansicht des Rollen-Explorers, einer Feature-Übersicht, angezeigt werden. Weitere Informationen finden Sie unter [Suchen von Seiten mit dem Rollen-Explorer](ui-role-explorer.md).
 
-## <a name="to-export-user-created-profiles"></a>So exportieren Sie benutzerdefinierte Profile
-Sie können Profile exportieren, die entweder von Ihnen oder von Benutzern geändert wurden, wie **(Vom Benutzer erstellt)** im Feld **Quelle**. Das Profil wird in eine ZIP-Datei exportiert, die .al Dateien enthält, die zum Entwickeln von Erweiterungen wiederverwendet werden können. Weitere Informationen finden Sie unter [Verwenden des Clients zum Erstellen von Profilen und Seitenanpassungen](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+## <a name="to-export-profiles"></a>So exportieren Sie Profile
+Sie können Profile aus [!INCLUDE[d365fin](includes/d365fin_md.md)] exportieren, z.B. um sie in einem anderen Mandanten wiederzuverwenden. Die Profile werden in eine Zip-Datei exportiert, die .al-Dateien enthält, die zur Entwicklung von Erweiterungen wiederverwendet werden können. Weitere Informationen finden Sie unter [Verwenden des Clients zum Erstellen von Profilen und Seitenanpassungen](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
-* Auf der **Profile (Rollen)** Seite, wählen Sie die **Vom Benutzer erstellte Profile exportieren** Aktion.
+* Wählen Sie auf der Seite **Profile (Rollen)** die Aktion **Profile exportieren**.
 
-Eine Zip-Datei mit den .al-Dateien für Profile, die neu hinzugefügt oder geändert wurden, wird exportiert.
+Eine Zip-Datei mit den .al-Dateien für alle Profile wird exportiert.
+
+## <a name="to-import-profiles"></a>So importieren Sie Profile
+Sie können Profile importieren, die aus [!INCLUDE[d365fin](includes/d365fin_md.md)] exportiert wurden. Die Schritte sind mehr oder weniger das Gegenteil der Schritte zum Exportieren von Profilen. Weitere Informationen finden Sie unter [Profile exportieren](admin-users-profiles-roles.md#to-export-profiles).
+
+1. Wählen Sie auf der Seite **Profile (Rollen)** die Aktion **Profile importieren**.
+2. Folgen Sie den Schritten des Assistenten **Importprofile**.
+
+    Wenn Sie nur ausgewählte Profile importieren möchten, verwenden Sie das Kontrollkästchen **Ausgewählt**, um anzugeben, welche importiert werden sollen.
+3. Wählen Sie die Aktion **Ausgewählte importieren**.
+
+Eine Zip-Datei mit .al-Dateien für die ausgewählten Profile wird importiert.
 
 ## <a name="to-delete-a-profile"></a>So löschen Sie ein Profil
 Sie können ein Profil löschen, indem Sie auf die Schaltfläche **Löschen** klicken auf der **Profile (Rollen)** Seite. Es gelten jedoch folgende Einschränkungen:
@@ -119,11 +131,17 @@ Sie können Personalisierungen löschen, die ein oder mehrere Benutzer an bestim
 
 2. Wählen Sie dir Zeile für die Personalisierungsseite, die Sie löschen möchten, und wählen die Aktion **Löschen** aus.
 
-Der Benutzer sieht die Änderungen das nächste Mal bei der Anmeldung.    
+Der Benutzer sieht die Änderungen das nächste Mal bei der Anmeldung.  
 
 Sie können auch alle individuellen Seitenanpassungen für ein Profil löschen. Weitere Informationen finden Sie unter [So löschen Sie alle Anpassungen für eine bestimmte Seite für ein Profil](ui-personalization-manage.md#to-delete-customization-for-specific-pages-for-a-profile).
 
+## <a name="managing-user-sessions"></a>Verwalten von Benutzersitzungen
+
+Als Administrator von [!INCLUDE[prodshort](includes/prodshort.md)] Online können Sie Benutzersitzungen im Administration Center verwalten. Weitere Informationen finden Sie unter [Sitzungen verwalten](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) im Verwaltungsinhalt.  
+
+Für [!INCLUDE[prodshort](includes/prodshort.md)] (lokal) können Sie Sitzungen beispielsweise mit SQL Server Management Studio verwalten. Weitere Informationen finden Sie unter [Technische Dokumentation zu SQL Server](/sql/sql-server/?view=sql-server-ver15).  
+
 ## <a name="see-also"></a>Siehe auch  
-[Berechtigungen für Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)  
+[Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)  
 [Seiten für Profile anpassen](ui-personalization-manage.md)  
 [Ihren Arbeitsbereich personalisieren](ui-personalization-user.md)  

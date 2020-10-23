@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 21329a8c6232fe0aba2f0ef99cc58ce4ea699d68
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 04/01/2020
+ms.author: edupont
+ms.openlocfilehash: 53e0e97ec0701fc83f1a3f0d084430efda064962
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310695"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781285"
 ---
 # <a name="posting-documents-and-journals"></a>Journale und Dokumente buchen
 Das Buchen stellt die Buchhaltungsaktion vom Aufzeichnen von Geschäftstransaktionen in verschiedenen Mandantensachkontos dar.

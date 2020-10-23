@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 96928809525ef07ee82725bad5dd7f6ac4b7a6e0
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 04/01/2020
+ms.author: edupont
+ms.openlocfilehash: 49860fff57d4fb1ea79ca77d5401aaf1b3ecf8b7
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877351"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784559"
 ---
 # <a name="set-up-service-contracts"></a>Serviceverträge einrichten
 Um mit Verträgen arbeiten zu können, müssen Sie Folgendes einrichten: 

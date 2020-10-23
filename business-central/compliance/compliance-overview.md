@@ -10,21 +10,22 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.reviewer: edupont
-ms.date: 10/01/2019
+ms.date: 07/21/2020
 ms.author: soalex
-ms.openlocfilehash: d5ded53ed424147247776d999992b718334db8b7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bca6f46e252ee2db679295386c559d5f2b948a83
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303876"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611434"
 ---
 # <a name="compliance"></a>Kompatibilität
+
 Dieser Inhalt enthält Informationen über Dienstkompatibilität in Bezug auf [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
 
-Kompatibilität ist ein Thema für das Erhöhens von Zinsen und durch die Entwicklung von Business Central haben wird sichergestellt, dass das Produkt Debitoren und Ihrem Partner auf einer breiten Skala befähigt und nicht Blocker hinsichtlich der Kompatibilität erforderlich macht. Im Gegenteil Business Central enthält Funktionalitäten und ist auf einer Plattform gebaut, die es für Kunden einfach macht, die Kompatibilität und Gesetze einzuhalten.
+Compliance ist ein Thema von wachsendem Interesse, und während der gesamten Entwicklung von Business Central haben wir dafür gesorgt, dass das Produkt Kunden und Partner auf breiter Ebene befähigt und keine Blockierer in Bezug auf Compliance auferlegt. Im Gegenteil Business Central enthält Funktionalitäten und ist auf einer Plattform gebaut, die es für Kunden einfach macht, die Kompatibilität und Gesetze einzuhalten.
 
-In diesem Abschnitt können Sie mehr über den Ansatz unserer Kompatibilität in Bezug auf Anwendung, Dienstleistungen und länderspezifische Perspektiven lesen.
+In diesem Abschnitt können Sie mehr über den Ansatz unserer Compliance in Bezug auf Anwendung, Dienstleistungen und länderspezifische Anforderungen lesen.
 
 |**Prozess**|**Siehe**|  
 |------------|-------------|  

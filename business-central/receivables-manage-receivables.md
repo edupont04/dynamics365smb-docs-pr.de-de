@@ -1,8 +1,6 @@
 ---
 title: Überblick der Aufgaben zum Verwalten von Debitoren | Microsoft Docs
 description: Zeigt auf, wie Debitoren verwaltet werden und ordnet Zahlungen einem Debitor oder Kreditorenposten zu.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 01/13/2020
-ms.author: sgroespe
-ms.openlocfilehash: 387b8269e5da978c25c1c5436f5a737fa055a78c
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.date: 10/01/2020
+ms.author: edupont
+ms.openlocfilehash: 104049b15cb379e65f84b9d1280ee52c4b2215f0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954154"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926372"
 ---
 # <a name="managing-receivables"></a>Debitoren verwalten
+
 Ein regelmäßiger Schritt in jedem Finanzrhythmus ist, Bankkonten abzustimmen, die es erfordern, dass Sie Zahlungen mit Debitoren- oder Kreditorenposten ausgleichen, um Verkaufsrechnungen und - gutschriften zu schließen.
 
 Da die meisten Debitoren in B2B-Umgebung einige Zeit nach der Lieferung bezahlen, lassen Sie die gebuchten Verkaufsrechnungen geöffnet für die Debitorenabteilung, um sie zu beenden, wenn die Zahlung erfolgt. Einige Verkaufsrechnungen können zum Beispiel mit Paypal sofort bezahlt werden. Solche Rechnungen werden sofort folgendermaßen als bezahlt angewendet, wenn sie gebucht werden und werden nicht als Zahlung in der Verarbeitung in AR angezeigt. Weitere Informationen finden Sie unter [Fakturieren eines Verkaufs](sales-how-invoice-sales.md).  
@@ -32,7 +31,7 @@ Andere Seiten gibt es, wo Sie entweder Zahlungen anwenden oder Bankkonten abstim
 * Die Seite **Zahlungs-Registrierung**, wo Sie manuell Zahlungseingänge wie Kasse, Scheck oder Bankbuchung für eine generierte Liste der unbezahlten Verkaufsbelegen überprüfen können. Beachten Sie, dass diese Funktionen nur für Verkaufsbelege verfügbar sind. Hier können Sie ausgehende Zahlungen nicht übernehmen, und Sie können keine Bankkonten abstimmen.
 * Die Seite **Zahlungseingangsbuch.-Blatt**, indem Sie manuell Belege der relevanten Sachkonten, Debitoren oder anderer Konten durch Eingabe einer Zahlungsposition buchen können. In diesem Fall können Sie entweder den Wareneingang oder die Rückerstattung mit einem oder mehreren offenen Posten anwenden, bevor Sie das Zahlungseingangs Buch.-Blatt buchen, oder Sie können sie aus den erstellten Debitorenposten erstellen. Hier können Sie Bankkonten nicht ausgeglichen.
 
-Die Seiten **Zahlungsabstimmungsbuch.-Blatt** und **Bankkontoabstimmung** verwenden eine automatische Abgleichslogik, die Sie auf der Seite **Zahlungsausgleichsvorschriften** einrichten können. Weitere Informationen finden Sie unter [Einrichten von Regeln für die automatische Anwendung von Zahlungen](receivables-how-set-up-payment-application-rules.md).
+Die Seite **Zahlungsabstimmungsbuch.-Blatt** verwendet eine automatische Abgleichslogik, die Sie auf der Seite **Zahlungsausgleichsvorschriften** einrichten können. Weitere Informationen finden Sie unter [Einrichten von Regeln für die automatische Anwendung von Zahlungen](receivables-how-set-up-payment-application-rules.md).  
 
 Andere Aspekte der Verwaltung von Forderungen umfassen die Erfassung offener Salden, einschließlich Zinsrechnungen und Mahnungen und die Einrichtung von Bankkonten, damit Zahlungen von Debitoren automatisch von ihren Konten abgehoben werden können.
 
@@ -50,7 +49,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 |Einrichtung einer Toleranz, mit der das System eine Rechnung schließt, selbst wenn die Zahlung einschließlich aller Rabatte nicht vollständig den Betrag der Rechnung abdeckt.|[Arbeiten mit Zahlungstoleranzen und Skontotoleranzen](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Sagen Sie voraus, wenn Zahlungen für Verkaufsbelege zu spät geleistet werden. | [Die Erweiterung zur Vorhersage verspäteter Zahlungen](ui-extensions-late-payment-prediction.md) |
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-customer-vendor-payments-dynamics-365-business-central"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/paths/process-customer-vendor-payments-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/paths/process-customer-vendor-payments-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 [Verkauf](sales-manage-sales.md)  

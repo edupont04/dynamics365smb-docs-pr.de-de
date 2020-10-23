@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 48e95e17938c240862c8c5391bf328aa78bae7aa
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 04/01/2020
+ms.author: edupont
+ms.openlocfilehash: 185e35e9b9f44e8cc18b10adf0dc359c3dce1ef0
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881144"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784232"
 ---
 # <a name="enable-workflows"></a>Aktivieren von Workflows
 Wenn Sie einen Workflow erstellt haben und sicher sind, dass er bereit ist zu starten, müssen Sie den Workflow aktivieren.  

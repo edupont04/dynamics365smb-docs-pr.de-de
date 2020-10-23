@@ -1,24 +1,22 @@
 ---
 title: Besondere-E-Mail-Dokumente einrichten | Microsoft Docs
 description: Sie können Inhalt definieren, um in den Text eine E-Mail beispielsweise ein Paypal-Link einzufügen. Bestellanforderungen können auch Dokumente an eine E-Mail-Nachricht angehängt werden.
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: c0f39204777c551eb72af1f1556dcc72d82fff2c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 05/13/2020
+ms.author: edupont
+ms.openlocfilehash: d80b76614ad0ddf901a288859d8e6595d908c7ae
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310972"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527985"
 ---
 # <a name="send-documents-by-email"></a>Senden von Belegen über E-Mail
+
 Um die Inhalte von Geschäftsbelegen Ihren Geschäftspartnern rasch zu kommunizieren, wie beispielsweise Zahlungsinformationen auf Verkaufsbelegen an Debitoren, können Sie die Berichtslayoutfunktion verwenden, um dokumentspezifischen Inhalt zu definieren, der automatisch in E-Mail-Texte eingefügt wird. Weitere Informationen finden Sie unter [Berichte- und Dokumentenlayouts verwalten](ui-manage-report-layouts.md).
 
 Um E-Mails aus [!INCLUDE[d365fin](includes/d365fin_md.md)] zu aktivieren starten Sie den Leitfaden zur unterstützten Einrichtung **E-Mail einrichten** im Rollencenter.
@@ -32,7 +30,8 @@ Wenn das Feld **E-Mail** auf der Seite **Dokument senden an** auf **JA festgeleg
 Nachfolgend wird beschrieben, wie der Bericht **Verkaufsrechnung** für dokumentspezifische E-Mail-Texte verwendet wird, wenn Sie gebuchte Verkaufsrechnungen senden.
 
 ## <a name="to-set-up-a-document-specific-email-body-for-sales-invoices"></a>Einen dokumentspezifischen E-Mail-Text für Verkaufsrechnungen einrichten
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Berichtsauswahl Verkauf** ein, und wählen dann den zugehörigen Link aus.
+
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen"), geben Sie **Berichtsauswahl Verkäufe** ein und wählen Sie dann den entsprechenden Link.
 2. Auf der Seite **Berichts-Auswahl - Verkauf** unter **Verwendung** wählen Sie **Rechnung**.
 3. In einer neuen Zeile im Feld **Berichts-ID** wählen Sie beispielsweise Standardbericht 1306.
 4. Wählen Sie das Kontrollkästchen **Für E-Mail-Text verwenden**.
@@ -48,7 +47,8 @@ Wenn Sie jetzt beispielsweise die Aktion **Senden** auf der Seite **Gebuchte Ver
 Nachfolgend wird beschrieben, wie eine gebuchte Verkaufsrechnung als E-Mail mit dem Beleg gesendet wird, der als PDF-Datei angehängt ist und einen dokumentspezifischen E-Mail-Text enthält.
 
 ## <a name="to-send-documents-by-email"></a>Senden von Belegen über E-Mail
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Gebuchte Verkaufsrechnungen** ein, und wählen dann den zugehörigen Link aus.
+
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") aus, geben Sie **Gebuchte Verkaufsrechnungen** ein, und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die relevante gebuchte Verkaufsrechnung aus und wählen Sie die Aktion **Senden**. Die Seite **Dokument senden an** wird geöffnet.
 3. Wählen Sie im Feld **E-Mail** **Ja (Aufforderung für Einstellung)** aus. Weitere Informationen finden Sie unter [Einrichten von Sendeprofilen](sales-how-setup-document-send-profiles.md).
 4. Wählen Sie die Schaltfläche **OK** aus. Die Seite **E-Mails senden** wird geöffnet.
@@ -61,10 +61,17 @@ Nachfolgend wird beschrieben, wie eine gebuchte Verkaufsrechnung als E-Mail mit 
 9. Wählen Sie die Schaltfläche **OK**, um die E-Mail zu senden.
 
 > [!NOTE]  
->   Wenn Sie die E-Mail-Einstellungen nicht jedes Mal ändern wollen, wenn Sie ein Dokument per E-Mail senden, können Sie die Option **Ja** (Standardeinstellungen verwenden) im Feld **E-Mail** auf der Seite **Dokument senden** an auswählen. In diesem Fall wird die Seite **E-Mail senden** nicht geöffnet. Siehe dazu auch Schritt 4. Weitere Informationen finden Sie unter [Einrichten von Sendeprofilen](sales-how-setup-document-send-profiles.md).
+> Wenn Sie die E-Mail-Einstellungen nicht jedes Mal ändern wollen, wenn Sie ein Dokument per E-Mail senden, können Sie die Option **Ja** (Standardeinstellungen verwenden) im Feld **E-Mail** auf der Seite **Dokument senden** an auswählen. In diesem Fall wird die Seite **E-Mail senden** nicht geöffnet. Siehe dazu auch Schritt 4. Weitere Informationen finden Sie unter [Einrichten von Sendeprofilen](sales-how-setup-document-send-profiles.md).  
+
+## <a name="documents-marked-as-printed-when-they-are-sent"></a>Belege, die beim Senden als gedruckt markiert sind
+
+Einige Belege in [!INCLUDE[prodshort](includes/prodshort.md)] verfügen über ein Feld, das angibt, wie oft der Beleg gedruckt wurde. Das Feld wird auch aktualisiert, wenn Sie den Beleg nicht drucken, sondern stattdessen per E-Mail senden. Das Feld wird selbst dann aktualisiert, wenn Sie den Beleg überhaupt nicht senden, z. B. wenn Ihr Unternehmen keine E-Mail eingerichtet hat oder wenn für den Kontakt, an den Sie den Beleg senden möchten, keine E-Mail-Adresse angegeben ist. Für alle Szenarien, soweit [!INCLUDE[prodshort](includes/prodshort.md)] betroffen ist, wird der Beleg gedruckt, weil eine PDF-Datei generiert wird.  
+
+Der Benutzer sieht diese generierte Datei möglicherweise nicht, was auch der Grund ist, warum das Feld aktualisiert wird.
 
 ## <a name="see-also"></a>Siehe auch
-[Verwaltung von Berichts- und Beleg-Layouts](ui-manage-report-layouts.md)  
+
+[Verwaltung von Berichts- und Dokumentlayouts](ui-manage-report-layouts.md)  
 [E-Mail einrichten](admin-how-setup-email.md)  
 [Fakturieren eines Verkaufs](sales-how-invoice-sales.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

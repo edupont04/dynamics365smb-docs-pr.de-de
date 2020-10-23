@@ -5,18 +5,18 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: a75d67cec31953d3e96111ff5558ecd89b461683
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 496c6bad5e309064ae2d6e7d15591578b1d46c6a
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954211"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528763"
 ---
 # <a name="whats-new-in-dynamics-365-business-central"></a>Was ist neu in Dynamics 365 Business Central
 
-[!include [release notes](includes/release-notes.md)]
+[!INCLUDE[release notes](includes/release-notes.md)]
 
 Sie können sich jederzeit auf den Release-Plan beziehen, um einen Überblick über neue und kommende Funktionen zu erhalten. Hier in der Dokumentation finden Sie dann Themen, mit denen Sie sich über neue und vorhandene Funktionen in [!INCLUDE[prodlong](includes/prodlong.md)] informieren können.  
 
@@ -30,7 +30,7 @@ Um alle Erweiterungen anzuzeigen, die von [!INCLUDE[d365fin](includes/d365fin_md
 
 Wir berichten auch über neue Funktionen im [Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/), inklusive wann sie zur Verfügung gestellt werden und ob es etwas zu berücksichtigen gibt.  
 
-Für die Partnergemeinschaft veröffentlichen wir Informationen über [Microsoft Dynamics 365 Business Central im Dynamics 365 Blog für Partner](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) und in der [Entwickler- und IT-Pro-Hilfe für [!INCLUDE [prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index).  
+Für die Partnergemeinschaft veröffentlichen wir Informationen über [Microsoft Dynamics 365 Business Central im Dynamics 365 Blog für Partner](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) und in der [Entwickler- und IT-Pro-Hilfe für [!INCLUDE[prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index).  
 
 ## <a name="see-also"></a>Siehe auch
 

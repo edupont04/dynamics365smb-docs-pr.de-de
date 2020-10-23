@@ -8,24 +8,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 01/13/2020
+ms.date: 06/25/2020
 ms.author: bholtorf
-ms.openlocfilehash: e7671e54f95a48322df186b5aed5a81552f9f91f
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: f12d12bf4fb6a12a0abe52101f30a16a182bd1b2
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953779"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528210"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Melden von MwSt. an die Steuerbehörden
-Dieses Thema beschreibt die Berichte in [!INCLUDE[d365fin](includes/d365fin_md.md)], die Sie verwenden können, um MwSt.-Informationen über Einkäufe und Verkäufe an die Steuerbehörden in Ihrer Region zu senden.
+Dieses Thema beschreibt die Berichte in [!INCLUDE[d365fin](includes/d365fin_md.md)], die Sie verwenden können, um MwSt.-Informationen über Einkäufe und Verkäufe an die Steuerbehörden in Ihrer Region zu senden. 
 
 Es können folgende Berichte verwendet werden:
 
 * Der Verkaufslistenbericht **EU-Verkaufsübersicht** führt MwSt.-Beträge der Europäischen Union (EU) auf, die Sie für Verkäufe an für MwSt. registrierte Debitoren innerhalb der EU eingetrieben haben  
-* Der Bericht **MwSt.-Rückgabe** enthält die MwSt. für Verkäufe und Einkäufe an Debitoren in allen Ländern, die MwSt. verwenden.
+* Der Bericht **MwSt.-Rückgabe** enthält die MwSt. für Verkäufe und Einkäufe an Debitoren und von Kreditoren in allen Ländern, die MwSt. verwenden.
 
 Wenn Sie den gesamten Verlauf von MwSt.-Posten anzeigen möchten, erstellt jede Buchung, die Mehrwertsteuer beinhaltet, einen Posten auf der Seite **MwSt.-Posten**. Diese Posten werden verwendet, um Ihren MwSt.-Abrechnungsbetrag (Ihrer Zahlung oder Erstattung) für eine bestimmte Periode zu berechnen. Zum Anzeigen von MwSt.-Einträgen wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Kostenbudgeteinträge löschen** ein, und wählen Sie dann den zugehörigen Link.
+
+> [!NOTE]
+> Jede [!INCLUDE[d365fin](includes/d365fin_md.md)]-Umgebung soll die gesetzlich vorgeschriebene Berichterstellung in einem einzigen Land handhaben. Die niederländische Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] handhabt MwSt-Berichterstellung beispielsweise in den Niederlanden, jedoch nicht in anderen Ländern. In ähnlicher Weise handhabt die US-Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] Steuererklärungen (US 1099) in den USA und unterstützt nicht die Geltendmachung von MwSt-Berichten in anderen Ländern, es sei denn, sie wird durch eine von unserem Partner-Ökosystem gelieferte Erweiterung oder eine kundenspezifische Code-Modifikation eingeführt.
 
 ## <a name="about-the-ec-sales-list-report"></a>Info über den Bericht "EU-Verkaufsübersicht"
 In Großbritannien müssen alle Unternehmen, die Waren und Dienstleistungen an für Mehrwertsteuer registrierte Debitoren verkaufen, einschließlich Debitoren in anderen Ländern der Europäischen Union (EU), eine elektronische Version des Verkaufslistenberichts der MwSt-Beträge der Europäischen Union (EU) im XML-Format an die HMRC-Website (Her Majesty's Revenue and Customs) senden. Der EU-Verkaufsübersichts-Bericht passt nur für Länder in der EU.
@@ -59,9 +62,9 @@ Um MwSt an eine Steuerbehörden zu übermitteln, müssen Sie den [!INCLUDE[d365f
 2. Füllen Sie die entsprechenden Felder aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
-    >   Es ist empfehlenswert, die Verbindung zu testen. Um dies zu tun, aktivieren Sie das Kontrollkästchen **Testmodus**, bereiten den MwSt.-Bericht vor und senden ihn wie im Abschnitt _Vorbereiten und Übermitteln eines MwSt.-Berichts_ beschrieben. Im Testmodus testet der Dienst, ob die Steuerbehörden den Bericht erhalten, und der Status des Berichts gibt an, ob die Testübermittlung erfolgreich war. Denken Sie daran, dass dies keine tatsächliche Datenübermittlung ist. Um den tatsächlichen Bericht zu senden, müssen Sie das Feld **Testmodus** deaktivieren und dann den Übermittlungsvorgang wiederholen.
+    > Es ist empfehlenswert, die Verbindung zu testen. Um dies zu tun, aktivieren Sie das Kontrollkästchen **Testmodus**, bereiten den MwSt.-Bericht vor und senden ihn wie im Abschnitt _Vorbereiten und Übermitteln eines MwSt.-Berichts_ beschrieben. Im Testmodus testet der Dienst, ob die Steuerbehörden den Bericht erhalten, und der Status des Berichts gibt an, ob die Testübermittlung erfolgreich war. Denken Sie daran, dass dies keine tatsächliche Datenübermittlung ist. Um den tatsächlichen Bericht zu senden, müssen Sie das Feld **Testmodus** deaktivieren und dann den Übermittlungsvorgang wiederholen.
 
-## <a name="to-set-up-vat-reports-in-included365finincludesd365fin_mdmd"></a>Einrichten von MwSt.-Berichten in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="to-set-up-vat-reports-in-d365fin"></a>Einrichten von MwSt.-Berichten in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **VAT-Bereichtsservice** ein und wählen Sie dann den entsprechenden Link.  
 2. Wenn Sie Benutzer diesen Bericht ändern und erneut senden lassen möchten, wählen Sie das Kontrollkästchen **Übermittelte Berichte ändern**.  
 3. Wählen Sie die Nummernserie für jeden Bericht.  
@@ -76,7 +79,7 @@ Um MwSt an eine Steuerbehörden zu übermitteln, müssen Sie den [!INCLUDE[d365f
 4. Um einen Bericht für die Übermittlung zu überprüfen und vorzubereiten, wählen Sie die **Freigabe**-Aktion.  
 
     > [!NOTE]  
-    >   [!INCLUDE[d365fin](includes/d365fin_md.md)] prüft, ob der Bericht korrekt eingerichtet ist. Wenn die Prüfung fehlschlägt, werden die Fehler im Fenster **Fehler und Warnungen** angezeigt, sodass Sie entsprechende Änderungen vornehmen können. Wenn die Meldung zu einer fehlenden Einstellung in [!INCLUDE[d365fin](includes/d365fin_md.md)] erfolgt, können Sie auf die Nachricht klicken, um die Seite zu öffnen, die die Informationen zur Korrektur enthält.  
+    > [!INCLUDE[d365fin](includes/d365fin_md.md)] prüft, ob der Bericht korrekt eingerichtet ist. Wenn die Prüfung fehlschlägt, werden die Fehler im Fenster **Fehler und Warnungen** angezeigt, sodass Sie entsprechende Änderungen vornehmen können. Wenn die Meldung zu einer fehlenden Einstellung in [!INCLUDE[d365fin](includes/d365fin_md.md)] erfolgt, können Sie auf die Nachricht klicken, um die Seite zu öffnen, die die Informationen zur Korrektur enthält.  
 5. Um den Bericht zu buchen, wählen Sie die **Übermitteln** Aktion.  
 
 Nachdem Sie den Bericht gesendet haben, überwacht [!INCLUDE[d365fin](includes/d365fin_md.md)] den Service und bewahrt einen Datensatz Ihrer Kommunikation auf. Das Feld **Status** gibt an, wo der Bericht in Bearbeitung ist. Beispielsweise wenn die Behörden Ihren Bericht verarbeiten, ändert sich der Status des Berichts auf **Erfolgreich**. Wenn die Steuerbehörde Fehler im Bericht finden, erhält der Bericht den Status **Fehler**. Sie können die Fehler unter **Fehler und Warnungen** anzeigen, korrigieren und den Bericht erneut senden. Um eine Liste Ihrer EU-Verkaufsübersichts-Berichte anzuzeigen, wechseln Sie zur Seite **EU-Verkaufsübersichts-Berichte**.  
@@ -111,7 +114,7 @@ Die folgende Tabelle beschreibt Codeunits, die Sie für den Bericht erstellen m�
 > [!Note]
 > Wenn Sie Codeunits für den Bericht erstellen, passen Sie auf den Wert im Feld **MwSt Berichts-Version** auf. Dieses Feld muss der Version des Berichts entsprechen, der von der Steuerbehörde verlangt wurde oder verlangt wird. Beispielsweise können Sie **2017** in dieses Feld eingeben, um anzugeben, dass der Bericht der Anforderungen entspricht, die im letzten Jahr verlangt wurden. Um die aktuellen Version zu finden, setzen Sie sich mit den Steuerbehörden in Verbindung.
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-vat-dynamics-365-business-central"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 [Methoden für die Berechnung und Buchung von Mehrwertsteuer einrichten](finance-setup-vat.md)  

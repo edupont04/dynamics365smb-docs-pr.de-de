@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting, interface, design
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 7600e8ebfee6b6eda6f872b0de2f4c8238338340
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 04/01/2020
+ms.author: edupont
+ms.openlocfilehash: 1e80b905d96fc2204b61b03c0970257755b9e105
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880088"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787346"
 ---
 # <a name="design-details-posting-interface-structure"></a>Designdetails: Buchungs-Schnittstellenstruktur
 In [!INCLUDE[d365fin](includes/d365fin_md.md)]-Buchungsschnittstellenstruktur gibt es mehrere globale Verfahren, die dieselbe Struktur verwenden:  

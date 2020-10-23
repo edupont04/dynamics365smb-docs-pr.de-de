@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 01/27/2020
-ms.author: sgroespe
-ms.openlocfilehash: 0e38ec4c70fdbf81b29d96ad9db80cd7efdd2c82
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.date: 04/01/2020
+ms.author: edupont
+ms.openlocfilehash: 17293912658cc60a35ba4d54156d48eda3db32dc
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999855"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3788471"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Buchungen stornieren und Belege/Lieferungen rückgängig machen
 Zum Stornieren (Rückgängig machen) fehlerhafter Buch.-Blattbuchungen wählen Sie einen Posten und erstellen einen Korrekturposten (ein Posten, die mit dem ursprünglichen Posten identisch ist, jedoch im Betragsfeld ein umgekehrtes Vorzeichen aufweist) mit derselben Belegnummer und demselben Belegdatum wie der ursprüngliche Posten. Nachdem Sie einen Posten storniert haben, müssen Sie den Korrekturposten erstellen.

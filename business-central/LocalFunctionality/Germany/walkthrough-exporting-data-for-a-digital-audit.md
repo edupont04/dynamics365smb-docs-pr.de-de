@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: f4c4273f42a95924f22eb8e3d55f0ed9f39bf075
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 04/01/2020
+ms.author: edupont
+ms.openlocfilehash: 23f919364b34f0d59ba6ffa1b9c79ad6b46d83a7
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878170"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779101"
 ---
 # <a name="walkthrough-exporting-data-for-a-digital-audit"></a>Wie Sie Daten für eine Digital-Überwachung exportieren
 Sie können Geschäftsdaten für Überwachungszwecke exportieren. Die Einrichtung des Datenexportes unterscheidet sich von anderen Unternehmen und Sie sollten Ihren Steuerberater und den Steuerprüfer um Rat fragen. In der folgenden exemplarischen Vorgehensweise wird der durchgängige Prozess beschrieben, dies ist jedoch nur ein Beispiel.  
@@ -43,9 +43,9 @@ Sean ist ein Hauptbenutzer der CRONUS AG. Er versteht, wie die Daten technisch m
 ## <a name="defining-the-requirements"></a>Festlegen der Anforderungen  
 Cassis richtet die anforderungen für den Datenexport ein. Die Prüfer haben sie um Einsicht in Transaktionen mit Debitoren und Kreditoren gebeten. Daher weiß sie, dass sie Daten aus der Debitoren-, Kreditoren- und der Finanzbuchhaltung benötigt.  
 
-### <a name="to-set-up-the-requirements-for-a-data-export"></a>Einrichten von Anforderungen für den Datenexport.  
+### <a name="to-set-up-the-requirements-for-a-data-export"></a>Einrichten von Anforderungen für den Datenexport  
 
-1.  Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Symbol „Suche nach Seite oder Bericht“"), geben Sie **Datenexport** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen"), geben Sie **Datenexport** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die Aktion **Neu**.  
 3.  Füllen Sie auf der Seite **Datenexporte** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
@@ -251,7 +251,7 @@ Cassie möchte Daten exportieren, die sie anschließend den Steuerprüfern sende
 
 ### <a name="to-export-data"></a>Daten exportieren  
 
-1.  Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Symbol „Suche nach Seite oder Bericht“") aus, geben Sie **Geschäftsdaten exportieren** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen"), geben Sie **Geschäftsdaten exportieren** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Füllen Sie auf der Seite **Geschäftsdaten exportieren** im Inforegister **Optionen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
@@ -278,4 +278,4 @@ Wenn die Steuerprüfer das nächste Mal neue Daten anfordern, können Cassie und
 ## <a name="see-also"></a>Siehe auch  
  [Prozess für Digital-Überwachung](process-for-digital-audits.md)   
  [Wie Sie Daten für eine Digital-Überwachung einrichten](how-to-set-up-data-exports-for-gdpdu.md)   
- [Wie Sie Daten für eine Digital-Überwachung exportieren](how-to-export-data-for-a-digital-audit.md)
+ [Daten für eine digitale Prüfung exportieren](how-to-export-data-for-a-digital-audit.md)
